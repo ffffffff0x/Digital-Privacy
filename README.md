@@ -226,7 +226,7 @@ https://binmail.co/home
 
     试着分享一个音乐 https://music.163.com/#/song/1346907833/?userid=48353
 
-    注意一下userid变量，构造一下payload: `https://music.163.com/#/user/home?id=<!userid!>`
+    注意一下userid变量，构造一下链接: `https://music.163.com/#/user/home?id=<!userid!>`
 
     `https://music.163.com/#/user/home?id=48353`
 
@@ -236,7 +236,7 @@ https://binmail.co/home
 
 - **支付宝**
 
-    - [（更新）支fu宝可以查婚姻状况望周知](ttps://www.douban.com/group/topic/142322388/)
+    - [支fu宝可以查婚姻状况望周知](ttps://www.douban.com/group/topic/142322388/)
 
 - **firefox**
 
