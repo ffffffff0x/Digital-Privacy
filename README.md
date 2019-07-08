@@ -175,6 +175,7 @@ https://binmail.co/home
 - [Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
 - [i2p/i2p.i2p](https://github.com/i2p/i2p.i2p)
 - [abcnews/data-life](https://github.com/abcnews/data-life)
+- [W10Privacy](https://www.winprivacy.de/english-home/)
 
 **浏览器扩展**
 - **chrome**
