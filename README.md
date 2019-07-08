@@ -14,6 +14,10 @@
     <a href="https://en.wikipedia.org/wiki/Wojciech_Kossak"><img src=".//img/readme.jpg"></a>
 </p>
 
+---
+
+`注:各位如果有好的建议或方案，欢迎提交issues`
+
 ## 平台管控设置
 
 **Microsoft**
