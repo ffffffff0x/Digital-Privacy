@@ -236,7 +236,7 @@ https://binmail.co/home
 
 - **支付宝**
 
-    - [支fu宝可以查婚姻状况望周知](ttps://www.douban.com/group/topic/142322388/)
+    - [支fu宝可以查婚姻状况望周知](https://www.douban.com/group/topic/142322388/)
 
 - **firefox**
 
