@@ -138,7 +138,6 @@ http://tool.chacuo.net/mailanonymous
 - [Am I unique?](https://amiunique.org/fp)
 - [Unique Machine](http://uniquemachine.org/)
 - [Panopticlick](https://panopticlick.eff.org/)
-
 - **相关文章**
     - [浏览器指纹](https://wzyboy.im/post/1130.html)
     - [2.5代指纹追踪技术—跨浏览器指纹识别](https://www.freebuf.com/articles/web/139984.html)
@@ -150,6 +149,11 @@ http://tool.chacuo.net/mailanonymous
 - [pwd query](https://pwdquery.xyz/)
 - [Firefox Monitor](https://monitor.firefox.com/)
 - [Vigilante.pw ‐ The Breached Database Directory](https://vigilante.pw/)
+- **泄露密码库**
+    - https://cdn.databases.today/
+    - https://publicdbhost.dmca.gripe/
+    - https://www.databases.today/search.php?tdsourcetag=s_pctim_aiomsg
+    - https://cloud.mail.ru/public/2eHX/38Ek7Lmfx?tdsourcetag=s_pctim_aiomsg
 
 ### DNS信息
 - [DNS leak test](https://dnsleaktest.com/)
