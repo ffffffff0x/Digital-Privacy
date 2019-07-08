@@ -5,7 +5,10 @@
 ---
 
 # Manual
-一个关于个人隐私保护、清理的方案收集
+
+> 世界上有两种密码：一种是防止你的小妹妹偷看你的文件；另一种是防止当局阅读你的文件。
+
+- Bruce Schneier《应用密码学》
 
 <p align="center">
     <a href="https://en.wikipedia.org/wiki/Wojciech_Kossak"><img src=".//img/readme.jpg"></a>
@@ -262,6 +265,4 @@ https://binmail.co/home
 
 ---
 
-> 世界上有两种密码：一种是防止你的小妹妹偷看你的文件；另一种是防止当局阅读你的文件。
-
-- Bruce Schneier《应用密码学》
+`本项目所有内容,仅供学习和研究使用,请勿使用项目的技术手段用于非法用途,任何人造成的任何负面影响,与本人无关。`
