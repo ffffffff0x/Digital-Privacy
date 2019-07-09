@@ -326,8 +326,25 @@ http://tool.chacuo.net/mailanonymous
     - [船员证书查询](http://cyxx.msa.gov.cn/lycx/zslycx!init.action?flag=1)
     - [船舶查询系统,全球最大的船舶数据库](http://app.cnss.com.cn/sochuan.php)
 
-- **杂项**
-    - [【实用帖】手把手叫你怎么查个人的征信记录](https://www.douban.com/group/topic/122748619/)
+- **可信度**
+    - [个人信用查询搜索_企业信息查询搜索_统一社会信用代码查询-信用中国](https://www.creditchina.gov.cn/)
+    - [统一社会信用代码查询_诚信体系实名制查询_组织机构代码-全国组织机构统一社会信用代码数据服务中心(原全国组织机构代码管理中心)](https://www.cods.org.cn/)
+
+    **个人**
+    - [中国执行信息公开网](http://zxgk.court.gov.cn/)
+    - [银行卡号归属地查询-银行卡开户行查询-银行卡信息查询-银行卡号网-诈骗举报](http://www.2cha.com/)
+    - [中国人民银行征信中心](http://www.pbccrc.org.cn/)
+
+    **企业**
+    - [企查查_工商信息查询_公司企业注册信息查询_全国企业信用信息公示系统](https://www.qichacha.com/)
+    - [国家企业信用信息公示系统](http://www.gsxt.gov.cn/index.html)
+    - [天眼查-人人都在用企业信息调查工具_企业信息查询_公司查询_工商查询_信用查询平台](https://www.tianyancha.com/)
+    - [启信宝-企业注册信息查询|企业工商信息查询|企业信用信息查询平台](https://www.qixin.com/)
+    - [企业信用信息查询](http://www.ixy360.com/)
+    - [悉知 - 专注企业信息查询 | 查企业 用悉知](http://www.xizhi.com/)
+    - [信用视界-专业的企业信息查询_公司查询_企业信用信息查询_企业工商信息查询_企业注册信息查询_工商登记信息查询_征信公司](https://www.x315.com/)
+    - [中国海关企业进出口信用信息公示平台](http://credit.customs.gov.cn/)
+    - [看准网-查工资|聊面试|评公司|搜职位|中国领先的职场信息平台](https://www.kanzhun.com/)
 
 ---
 
