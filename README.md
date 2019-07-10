@@ -320,13 +320,16 @@ http://tool.chacuo.net/mailanonymous
     - [Firefox火狐国际版和中文版的区别](http://www.177kan.com/html/2017033130.html)
     - [Firefox 如何查看和切换 本地服务 与 全球服务](http://mozilla.com.cn/forum.php?mod=viewthread&tid=330960)
 
+- **QQ**
+
+    - [我根据QQ步数判断出我男朋友和我朋友出轨了](https://www.douban.com/group/topic/145419238/)
+
 ### life
 - **飞机**
     - [Flight Tracker | Flightradar24 | Track Planes In Real-Time](https://www.flightradar24.com/)
     - [FlightAware - 航班跟踪/航班状态/飞行跟踪](https://zh.flightaware.com/)
     - [Flightradar24 — how it works? / Habr](https://habr.com/en/post/440596/)
     - [real-time flight tracking | Flightadsb | VariFlight](http://flightadsb.variflight.com/)
-
 
 - **船舶**
     - [MarineTraffic: Global Ship Tracking Intelligence | AIS Marine Traffic](https://www.marinetraffic.com/)
