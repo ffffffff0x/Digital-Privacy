@@ -98,6 +98,19 @@ http://www.z-sms.com/
 http://www.114sim.com/
 https://shouduanxin.com/en/
 http://www.345sms.com/
+https://receiveasms.com/
+https://www.gsmchecker.com/receive-sms-online
+http://receivesmsverification.com/
+http://smsget.net/en
+https://hs3x.com/
+https://www.receivesms.net/
+http://receivesmsonline.com/
+http://receivesmsonline.me/
+http://freesmsverification.com/
+https://sms.ndtan.net/
+https://receivefreesms.net/
+http://freereceivesmsonline.com/
+http://receivesmsonline.in/
 ```
 
 ### 临时邮箱
