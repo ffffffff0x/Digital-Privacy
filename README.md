@@ -34,7 +34,9 @@
     - [自動刪除你的 Google 網路和應用程式活動紀錄設定教學](https://free.com.tw/google-automatically-delete-data/)
 
 **twitter**
-- [应用授权](https://twitter.com/settings/sessions)
+- 应用授权 [旧版](https://twitter.com/settings/sessions) [新版](https://twitter.com/settings/applications)
+- [興趣和廣告資料](https://twitter.com/settings/your_twitter_data/ads)
+- [密碼重設保護-强烈建议开启此项](https://twitter.com/settings/security)
 
 **tencent**
 - [广告个性化](https://privacy.qq.com/ads/optout.html) (注:这里很鸡贼，他会告诉你不可以直接访问，其实直接F12把弹框删掉即可，真有你的啊，腾讯)
@@ -361,6 +363,11 @@ http://tool.chacuo.net/mailanonymous
     - [信用视界-专业的企业信息查询_公司查询_企业信用信息查询_企业工商信息查询_企业注册信息查询_工商登记信息查询_征信公司](https://www.x315.com/)
     - [中国海关企业进出口信用信息公示平台](http://credit.customs.gov.cn/)
     - [看准网-查工资|聊面试|评公司|搜职位|中国领先的职场信息平台](https://www.kanzhun.com/)
+
+- **EXIF信息**
+    - [EXIF信息查看器](https://exif.tuchong.com/)
+    - [ExifShot App](https://exifshot.com/app/)
+    - [如何为老照片添加 Exif 日期数据？ - 小众软件](https://www.appinn.com/how-to-add-exif-date-for-old-picture/)
 
 ---
 
