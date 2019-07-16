@@ -207,6 +207,7 @@ http://tool.chacuo.net/mailanonymous
 - [手机号码查询归属地、电话号码归属地查询 — GPSspg](http://www.gpsspg.com/phone/)
 
 ### IP信息
+- [RIPEstat — Internet Measurements and Analysis](https://stat.ripe.net/)
 - [IP Info](https://ip.voidsec.com/)
 - [IP/DNS Detect - What is your IP, what is your DNS, what informations you send to websites.](https://ipleak.net/)
 - [ip8 - IP Lookup Tool](https://ip8.com/)
@@ -220,7 +221,6 @@ http://tool.chacuo.net/mailanonymous
 - [IP查询 | 查IP地址 | ip数据库 | 手机号码归属地 | 邮政编码 | worldclock 世界时间 calendar 万年历 Google PageRank Alexa rank domain whois](http://www.123cha.com/)
 - [ip查询,ip地址查询,ip位置 - Hao7188](http://www.hao7188.com/)
 - [MyIP.cn - 我的IP地址查询，网站综合信息查询，域名注册信息，搜索引擎收录，Alexa排名，Google PR，Sogou PR，反向链接，百度关键字指数](http://www.myip.cn/)
-- [RIPE Network Coordination Centre](https://www.ripe.net/)
 - [Whois](http://ipwhois.cnnic.net.cn/)
 - [国家IP段查询、全球国家IP段--查错网](http://ipblock.chacuo.net/)
 - [更精准的全球IP地址定位平台_IP问问 -埃文科技(ipplus360.com)](http://www.ipplus360.com/)
@@ -288,18 +288,37 @@ http://tool.chacuo.net/mailanonymous
 - [VeraCrypt](https://www.veracrypt.fr/en/Home.html)
 - [VHD虚拟磁盘+BitLocker加密](https://bbs.kafan.cn/thread-2115703-1-1.html)
 
+**flash (最好的选择就是远离flash)**
+- [支持到32_0_0_223_Adobe{过}{滤}FlashPlayer去区域限制](https://bbs.kafan.cn/thread-2123485-1-1.html)
+
+**輸入法**
+- [RIME](https://github.com/rime)
+
+**搜索引擎**
+- [DuckDuckGo — Privacy, simplified.](https://start.duckduckgo.com/)
+- [searx.me](https://searx.me/)
+- [StartPage Web Search](https://www.startpage.com/)
+
 ---
 
 ## Misc
+### 设备
+- **Alexa**
+    - [除非手动删除，不然 Alexa 上的语音资料会被亚马逊一直保留](https://cn.engadget.com/2019/07/04/amazon-keeps-alexa-transcripts/)
+
 ### 平台
+- **firefox**
 
-- **微信**
+    - [Firefox火狐国际版和中文版的区别](http://www.177kan.com/html/2017033130.html)
+    - [Firefox 如何查看和切换 本地服务 与 全球服务](http://mozilla.com.cn/forum.php?mod=viewthread&tid=330960)
 
-    阅读下面这个文章大致了解一下微信链接组成
+- **facebook**
+    - [facebook正在你下载的照片中嵌入跟踪数据](https://twitter.com/oasace/status/1149181539000864769)
+    - [Facebook Embeds 'Hidden Codes' To Track Who Sees And Shares Your Photos](https://www.forbes.com/sites/zakdoffman/2019/07/14/facebook-is-embedding-hidden-codes-to-track-all-your-uploaded-photos-report/#736d099e1592)
 
-    - [解读微信公众平台图文消息的链接组成](https://chuansongme.com/n/676997)
+- **QQ**
 
-    那么类似 `https://mp.weixin.qq.com/s?__biz=MzIyAAANzY0OA==&mid=101111431&idx=1&sn=62accd1299d25d54d1f3ad3f3d7d214&chksm=683d2e402f6sa2dsa2d154058807d1xxxx151213131dasdasdsadasd675ce59fae94ff9908&scene=18&xtrack=1&key=917D458AS46D146SD14AF541DSA4FDSAF131DS31F31DSA31FDSAde153285841fdc398a67d61be441cb0e1898a08232811308bf31dfc92757c3d7d5e3SD54AD1SA1D351S3A1D31S3AD034f1cb34170ecd27b6d7d69&ascene=1&uin=MTk3ODkwODMxMA%3D%3D&devicetype=Windows+7&version=62055833&lang=zh_CN&pass_ticket=r6jSAD55SAF458F61A4S56F51BW2hfIQPocX2O0er0vUheGSD45ASD11DASD361SADAWDbiqW` 这么一串可以携带多少信息
+    - [我根据QQ步数判断出我男朋友和我朋友出轨了](https://www.douban.com/group/topic/145419238/)
 
 - **网易云**
 
@@ -309,22 +328,21 @@ http://tool.chacuo.net/mailanonymous
 
     `https://music.163.com/#/user/home?id=48353`
 
-- **bilibili**
+- **微信**
 
-    同上
+    阅读下面这个文章大致了解一下微信链接组成
+
+    - [解读微信公众平台图文消息的链接组成](https://chuansongme.com/n/676997)
+
+    那么类似 `https://mp.weixin.qq.com/s?__biz=MzIyAAANzY0OA==&mid=101111431&idx=1&sn=62accd1299d25d54d1f3ad3f3d7d214&chksm=683d2e402f6sa2dsa2d154058807d1xxxx151213131dasdasdsadasd675ce59fae94ff9908&scene=18&xtrack=1&key=917D458AS46D146SD14AF541DSA4FDSAF131DS31F31DSA31FDSAde153285841fdc398a67d61be441cb0e1898a08232811308bf31dfc92757c3d7d5e3SD54AD1SA1D351S3A1D31S3AD034f1cb34170ecd27b6d7d69&ascene=1&uin=MTk3ODkwODMxMA%3D%3D&devicetype=Windows+7&version=62055833&lang=zh_CN&pass_ticket=r6jSAD55SAF458F61A4S56F51BW2hfIQPocX2O0er0vUheGSD45ASD11DASD361SADAWDbiqW` 这么一串可以携带多少信息
+
+    下面为阿里巴巴旗下的南华早报引用加拿大多伦多大学公民实验室的报告报道，腾讯的微信利用实时和追溯分析的方法审查用户的图片。报告发现，微信对用户对话中发送的图片进行实时自动检测和审查，审查是基于图片中包含的文字以及目标图片与系统数据库中的敏感图片的相似度匹配；微信通过建立哈希索引（Hash Index）实现过滤，该哈希索引由微信用户在聊天对话中发送的图像的 MD5 值组成；对比微信朋友圈，一对一聊天以及群组聊天的图片审查比例，发现这三项功能的敏感图片库并不相同，其中朋友圈和群组聊天所审查的范围要远大于一对一聊天；与关键词审查一样，微信图片审查与新闻事件相关。
+
+    - [How unwitting users of WeChat aid the Chinese messaging app’s blacklisting of sensitive images](https://www.scmp.com/news/china/politics/article/3018725/how-unwitting-users-wechat-aid-chinese-messaging-apps)
 
 - **支付宝**
 
     - [支fu宝可以查婚姻状况望周知](https://www.douban.com/group/topic/142322388/)
-
-- **firefox**
-
-    - [Firefox火狐国际版和中文版的区别](http://www.177kan.com/html/2017033130.html)
-    - [Firefox 如何查看和切换 本地服务 与 全球服务](http://mozilla.com.cn/forum.php?mod=viewthread&tid=330960)
-
-- **QQ**
-
-    - [我根据QQ步数判断出我男朋友和我朋友出轨了](https://www.douban.com/group/topic/145419238/)
 
 ### life
 - **飞机**
