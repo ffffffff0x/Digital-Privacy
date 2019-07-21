@@ -134,6 +134,7 @@ https://maildrop.cc/
 https://www.mailinator.com/
 https://binmail.co/home
 http://tool.chacuo.net/mailanonymous
+https://tempmail.altmails.com/
 ```
 
 ### 匿名邮箱
@@ -153,6 +154,8 @@ http://tool.chacuo.net/mailanonymous
 - [Am I unique?](https://amiunique.org/fp)
 - [Unique Machine](http://uniquemachine.org/)
 - [Panopticlick](https://panopticlick.eff.org/)
+- [Detect Canvas Fingerprint :: WebBrowserTools](https://webbrowsertools.com/canvas-fingerprint/)
+- [What is my User Agent :: WebBrowserTools](https://webbrowsertools.com/useragent/)
 - **相关文章**
     - [浏览器指纹](https://wzyboy.im/post/1130.html)
     - [2.5代指纹追踪技术—跨浏览器指纹识别](https://www.freebuf.com/articles/web/139984.html)
@@ -232,6 +235,8 @@ http://tool.chacuo.net/mailanonymous
 - [IP查询 - IP地址查询 - IP精确定位](http://ip.lockview.cn/Default.aspx)
 - [我们知道的IP地址](http://ip.womenzhidao.com/)
 - [DeerCloud/IPList: IP CIDRs List / IP 地址列表](https://github.com/DeerCloud/IPList)
+- [Get your IPv4 and IPv6 address instantly](https://eyep.dev/)
+- [What is my IP Address :: WebBrowserTools](https://webbrowsertools.com/ip-address/)
 
 ---
 
@@ -267,12 +272,12 @@ http://tool.chacuo.net/mailanonymous
     - [NoScript](https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm)
     - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
-- **firefox**
+- **firefox🦊**
     - [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
     - [Cookie AutoDelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
     - [LastPass Password Manager](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/?src=search)
     - [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search)
-    - [User-Agent Switcher](https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/?src=search)
+    - [User-Agent Switcher and Manager](https://addons.mozilla.org/zh-CN/firefox/addon/user-agent-string-switcher/?src=search)
     - [HTTPS Everywhere](https://addons.mozilla.org/zh-CN/firefox/addon/https-everywhere/?src=search)
     - [NoScript](https://addons.mozilla.org/zh-CN/firefox/addon/noscript/?src=search)
     - [uBlock Origin](https://addons.mozilla.org/zh-CN/firefox/addon/ublock-origin/?src=search)
@@ -306,6 +311,9 @@ http://tool.chacuo.net/mailanonymous
 - **Alexa**
     - [除非手动删除，不然 Alexa 上的语音资料会被亚马逊一直保留](https://cn.engadget.com/2019/07/04/amazon-keeps-alexa-transcripts/)
 
+- **Misc**
+    - [卖二手设备一定要注意，你的信息可能并没被删除](http://www.mottoin.com/detail/3933.html)
+
 ### 平台
 - **firefox**
 
@@ -327,6 +335,12 @@ http://tool.chacuo.net/mailanonymous
     注意一下userid变量，构造一下链接: `https://music.163.com/#/user/home?id=<!userid!>`
 
     `https://music.163.com/#/user/home?id=48353`
+
+- **微博**
+
+    微博图片反查
+    - https://wbimg.huyuaning.com/
+    - http://tool.uixsj.cn/weibo-pic-check/
 
 - **微信**
 
