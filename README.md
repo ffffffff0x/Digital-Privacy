@@ -16,12 +16,12 @@
 
 ---
 
-`注:各位如果有好的建议或方案，欢迎提交issues`
+`注: 如果有好的建议或方案，欢迎提交 issues`
 
 ## 平台管控设置
 
 **Microsoft**
-- [产品和服务的隐私设置，以及查看和清除Microsoft保存到云的数据的位置](https://account.microsoft.com/privacy/activity-history)
+- [产品和服务的隐私设置，以及查看和清除 Microsoft 保存到云的数据的位置](https://account.microsoft.com/privacy/activity-history)
 - [应用授权](https://account.live.com/consent/Manage)
 
 **google**
@@ -36,7 +36,7 @@
 **twitter**
 - 应用授权 [旧版](https://twitter.com/settings/sessions) [新版](https://twitter.com/settings/applications)
 - [興趣和廣告資料](https://twitter.com/settings/your_twitter_data/ads)
-- [密碼重設保護-强烈建议开启此项](https://twitter.com/settings/security)
+- [密碼重設保護](https://twitter.com/settings/security)
 
 **tencent**
 - [广告个性化](https://privacy.qq.com/ads/optout.html) (注:这里很鸡贼，他会告诉你不可以直接访问，其实直接F12把弹框删掉即可，真有你的啊，腾讯)
@@ -160,6 +160,7 @@ https://tempmail.altmails.com/
     - [浏览器指纹](https://wzyboy.im/post/1130.html)
     - [2.5代指纹追踪技术—跨浏览器指纹识别](https://www.freebuf.com/articles/web/139984.html)
     - [浏览器指纹真的有效吗？](http://www.arkteam.net/?p=4147)
+    - [浏览器的隐身模式有多隐身？](https://www.solidot.org/story?sid=61446)
 
 ### 密码查询
 - [DeHashed](https://dehashed.com/)
@@ -187,7 +188,7 @@ https://tempmail.altmails.com/
 - [跨国定位手机の奥义](https://mp.weixin.qq.com/s/K-zFVBaSw6yThuoLdUTjdg)
 - [For sale: Systems that can secretly track where cellphone users go around the globe - The Washington Post](https://www.washingtonpost.com/business/technology/for-sale-systems-that-can-secretly-track-where-cellphone-users-go-around-the-globe/2014/08/24/f0700e8a-f003-11e3-bf76-447a5df6411f_story.html)
 
-### GPS定位
+### GPS 定位
 - [MyGeoPosition.com – 免费地理编译，地理译码 / 地理元数据标记 (Geo-Metatag) / 地理标记（Geotag） / KML 文件!](http://mygeoposition.com/)
 - [RTBAsia ODX - Open Data Exchange](https://ip.rtbasia.com/)
 - [拾取坐标系统](http://api.map.baidu.com/lbsapi/getpoint/index.html)
@@ -209,7 +210,7 @@ https://tempmail.altmails.com/
 - [手机号码定位](http://shouji.ip38.com/)
 - [手机号码查询归属地、电话号码归属地查询 — GPSspg](http://www.gpsspg.com/phone/)
 
-### IP信息
+### IP 信息
 - [RIPEstat — Internet Measurements and Analysis](https://stat.ripe.net/)
 - [IP Info](https://ip.voidsec.com/)
 - [IP/DNS Detect - What is your IP, what is your DNS, what informations you send to websites.](https://ipleak.net/)
@@ -293,7 +294,7 @@ https://tempmail.altmails.com/
 - [VeraCrypt](https://www.veracrypt.fr/en/Home.html)
 - [VHD虚拟磁盘+BitLocker加密](https://bbs.kafan.cn/thread-2115703-1-1.html)
 
-**flash (最好的选择就是远离flash)**
+**flash (最好的选择就是远离 flash)**
 - [支持到32_0_0_223_Adobe{过}{滤}FlashPlayer去区域限制](https://bbs.kafan.cn/thread-2123485-1-1.html)
 
 **輸入法**
@@ -328,11 +329,20 @@ https://tempmail.altmails.com/
 
     - [我根据QQ步数判断出我男朋友和我朋友出轨了](https://www.douban.com/group/topic/145419238/)
 
+    - 查看历史头像
+    <p align="center">
+        <img src=".//img/qq.jpg">
+    </p>
+
+- **淘宝**
+
+    查看历史消费金额 `淘宝搜索：淘宝人生 点右上角【成就】`
+
 - **网易云**
 
     试着分享一个音乐 https://music.163.com/#/song/1346907833/?userid=48353
 
-    注意一下userid变量，构造一下链接: `https://music.163.com/#/user/home?id=<!userid!>`
+    注意一下 userid 变量，构造一下链接: `https://music.163.com/#/user/home?id=<!userid!>`
 
     `https://music.163.com/#/user/home?id=48353`
 
@@ -400,6 +410,11 @@ https://tempmail.altmails.com/
     - [EXIF信息查看器](https://exif.tuchong.com/)
     - [ExifShot App](https://exifshot.com/app/)
     - [如何为老照片添加 Exif 日期数据？ - 小众软件](https://www.appinn.com/how-to-add-exif-date-for-old-picture/)
+
+- **tips**
+    1. 对于各类平台尽量使用不同昵称、头像。
+    2. 多平台不要使用统一、相似的密码，请建立一套自己的密码管理方式。
+    3. 管住自己的炫耀欲。
 
 ---
 
