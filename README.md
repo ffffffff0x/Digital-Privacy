@@ -347,6 +347,7 @@
 ## 3.2 平台
 - **EDGE**
     - [UWP版EDGE浏览器被发现将用户安全标识符和网址发送给微软分析](https://www.landiannews.com/archives/61675.html)
+    - [Edge被吐槽向微软发送包含用户SID和访问站点完整URL等在内的信息](https://www.cnbeta.com/articles/tech/870695.htm)
 
 - **firefox**
     - [Firefox火狐国际版和中文版的区别](http://www.177kan.com/html/2017033130.html)
