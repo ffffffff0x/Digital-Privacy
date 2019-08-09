@@ -67,6 +67,7 @@
     - [2.5代指纹追踪技术—跨浏览器指纹识别](https://www.freebuf.com/articles/web/139984.html)
     - [浏览器指纹真的有效吗？](http://www.arkteam.net/?p=4147)
     - [浏览器的隐身模式有多隐身？](https://www.solidot.org/story?sid=61446)
+    - [Cookieless cookies](http://lucb1e.com/rp/cookielesscookies/)
 
 ## 1.3 密码查询
 - [DeHashed](https://dehashed.com/)
@@ -333,45 +334,88 @@
 ---
 
 # 3. Misc
-## 3.1 设备
+## 3.1 设备/语音助手(结果发现大家都在干😒)
 - **Alexa**
     - [除非手动删除，不然 Alexa 上的语音资料会被亚马逊一直保留](https://cn.engadget.com/2019/07/04/amazon-keeps-alexa-transcripts/)
+    - [隔屏有耳调查｜亚马逊智能音箱有千人监听团队，曾听到性侵案](https://www.thepaper.cn/newsDetail_forward_3290014)
+    - [亚马逊提供 Alexa 录音的非人工审听选项](https://www.solidot.org/story?sid=61594)
+
+- **Cortana**
+    - [继苹果谷歌后：微软被曝监听用户Skype和Cortana录音](https://tech.sina.com.cn/i/2019-08-08/doc-ihytcitm7662431.shtml)
+    - [Revealed: Microsoft Contractors Are Listening to Some Skype Calls](https://www.vice.com/en_us/article/xweqbq/microsoft-contractors-listen-to-skype-calls)
 
 - **Google Home**
     - [谷歌承认通过语音助手收集用户谈话内容：仅用于开发](https://www.ithome.com/0/433/712.htm)
     - [Google admits workers listen to some smart device recordings](https://thehill.com/policy/technology/452620-google-admits-workers-listen-to-some-smart-device-recordings)
 
+- **Siri**
+    - [Siri被曝偷偷给用户隐私录音，还上传给苹果](https://www.ednchina.com/news/201907291202.html)
+    - [苹果回应Siri录音用户谈话内容：使用了1%的用户录音](https://www.pingwest.com/w/191896)
+
 - **Misc**
     - [卖二手设备一定要注意，你的信息可能并没被删除](http://www.mottoin.com/detail/3933.html)
 
-## 3.2 平台
+- **ios**
+
+    设置-->隐私-->定位服务-->系统服务-->重要地点
+
+## 3.2 平台/软件
+- **Chrome**
+    - [谷歌崩溃报告究竟收集了哪些信息 个人信息如何处置](https://www.cnbeta.com/articles/tech/873763.htm)
+
 - **EDGE**
     - [UWP版EDGE浏览器被发现将用户安全标识符和网址发送给微软分析](https://www.landiannews.com/archives/61675.html)
     - [Edge被吐槽向微软发送包含用户SID和访问站点完整URL等在内的信息](https://www.cnbeta.com/articles/tech/870695.htm)
 
-- **firefox**
-    - [Firefox火狐国际版和中文版的区别](http://www.177kan.com/html/2017033130.html)
-    - [Firefox 如何查看和切换 本地服务 与 全球服务](http://mozilla.com.cn/forum.php?mod=viewthread&tid=330960)
-
 - **facebook**
     - [facebook正在你下载的照片中嵌入跟踪数据](https://twitter.com/oasace/status/1149181539000864769)
     - [Facebook Embeds 'Hidden Codes' To Track Who Sees And Shares Your Photos](https://www.forbes.com/sites/zakdoffman/2019/07/14/facebook-is-embedding-hidden-codes-to-track-all-your-uploaded-photos-report/#736d099e1592)
+
+- **firefox**
+    - [Firefox火狐国际版和中文版的区别](http://www.177kan.com/html/2017033130.html)
+    - [Firefox 如何查看和切换 本地服务 与 全球服务](http://mozilla.com.cn/forum.php?mod=viewthread&tid=330960)
 
 - **Office 365**
     - [Office 365的Webmail在电子邮件中显示用户的IP地址](https://www.bleepingcomputer.com/news/microsoft/microsoft-office-365-webmail-exposes-users-ip-address-in-emails/)
 
 - **QQ**
     - [我根据QQ步数判断出我男朋友和我朋友出轨了](https://www.douban.com/group/topic/145419238/)
-    - 查看历史头像
+
+    **查看历史头像**
+
+    貌似只有 QQ 可以，TIM 不行
+
     <p align="center">
         <img src=".//img/qq.jpg">
     </p>
 
+- **百度云**
+
+    说不定某时某人就给你开了个自动备份呢？
+
+    https://pan.baidu.com/disk/discovery
+
+    <p align="center">
+        <img src=".//img/baiduyun.png">
+    </p>
+
+- **滴滴**
+
+    我没下过 APP 版的，在支付宝中的滴滴是可以查询历史行程的。点击头像-->订单-->查看历史行程
+
+    <p align="center">
+        <img src=".//img/dd.png">
+    </p>
+
 - **淘宝**
 
-    查看历史消费金额 `淘宝搜索：淘宝人生 点右上角【成就】`
+    **查看历史消费金额**
+
+    `淘宝搜索：淘宝人生 点右上角【成就】`
 
 - **网易云**
+
+    **指纹**
 
     试着分享一个音乐 https://music.163.com/#/song/1346907833/?userid=48353
 
@@ -379,9 +423,15 @@
 
     `https://music.163.com/#/user/home?id=48353`
 
+    ---
+
+    **历史评论**
+
+    ios 端、安卓端通用，账号-->关于我-->我的评论
+
 - **微博**
 
-    微博图片反查
+    **微博图片反查**
     - https://wbimg.huyuaning.com/
     - http://tool.uixsj.cn/weibo-pic-check/
 
@@ -392,6 +442,8 @@
     - [解读微信公众平台图文消息的链接组成](https://chuansongme.com/n/676997)
 
     那么类似 `https://mp.weixin.qq.com/s?__biz=MzIyAAANzY0OA==&mid=101111431&idx=1&sn=62accd1299d25d54d1f3ad3f3d7d214&chksm=683d2e402f6sa2dsa2d154058807d1xxxx151213131dasdasdsadasd675ce59fae94ff9908&scene=18&xtrack=1&key=917D458AS46D146SD14AF541DSA4FDSAF131DS31F31DSA31FDSAde153285841fdc398a67d61be441cb0e1898a08232811308bf31dfc92757c3d7d5e3SD54AD1SA1D351S3A1D31S3AD034f1cb34170ecd27b6d7d69&ascene=1&uin=MTk3ODkwODMxMA%3D%3D&devicetype=Windows+7&version=62055833&lang=zh_CN&pass_ticket=r6jSAD55SAF458F61A4S56F51BW2hfIQPocX2O0er0vUheGSD45ASD11DASD361SADAWDbiqW` 这么一串可以携带多少信息
+
+    ---
 
     下面为阿里巴巴旗下的南华早报引用加拿大多伦多大学公民实验室的报告报道，腾讯的微信利用实时和追溯分析的方法审查用户的图片。报告发现，微信对用户对话中发送的图片进行实时自动检测和审查，审查是基于图片中包含的文字以及目标图片与系统数据库中的敏感图片的相似度匹配；微信通过建立哈希索引（Hash Index）实现过滤，该哈希索引由微信用户在聊天对话中发送的图像的 MD5 值组成；对比微信朋友圈，一对一聊天以及群组聊天的图片审查比例，发现这三项功能的敏感图片库并不相同，其中朋友圈和群组聊天所审查的范围要远大于一对一聊天；与关键词审查一样，微信图片审查与新闻事件相关。
 
@@ -448,6 +500,7 @@
     1. 对于各类平台尽量使用不同昵称、头像。
     2. 多平台不要使用统一、相似的密码，请建立一套自己的密码管理方式。
     3. 管住自己的炫耀欲。
+    4. 不要相信哪个公司不作恶、重视隐私。
 
 ---
 
