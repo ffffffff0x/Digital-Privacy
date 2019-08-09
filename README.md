@@ -362,6 +362,7 @@
 ## 3.2 平台/软件
 - **Chrome**
     - [谷歌崩溃报告究竟收集了哪些信息 个人信息如何处置](https://www.cnbeta.com/articles/tech/873763.htm)
+    - [用户浏览器被互联网大厂私自【托管】？仔细一查，这事并不简单](https://www.ithome.com/0/437/940.htm)
 
 - **EDGE**
     - [UWP版EDGE浏览器被发现将用户安全标识符和网址发送给微软分析](https://www.landiannews.com/archives/61675.html)
@@ -388,6 +389,9 @@
     <p align="center">
         <img src=".//img/qq.jpg">
     </p>
+
+- **Skype**
+    - [当Skype翻译器功能处于活动状态时 微软承包商可以获知对话内容](https://www.cnbeta.com/articles/tech/876211.htm)
 
 - **百度云**
 
