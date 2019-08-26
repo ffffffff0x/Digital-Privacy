@@ -48,6 +48,8 @@
 
 `注: 如果有好的建议或方案，欢迎提交 issues`
 
+还不清楚严重性？进来了解近年来的数据泄露、供应链污染事件：[Dork-Admin](https://github.com/No-Github/Dork-Admin)
+
 ---
 
 # 1. 查隐秘性
@@ -68,6 +70,8 @@
     - [浏览器指纹真的有效吗？](http://www.arkteam.net/?p=4147)
     - [浏览器的隐身模式有多隐身？](https://www.solidot.org/story?sid=61446)
     - [Cookieless cookies](http://lucb1e.com/rp/cookielesscookies/)
+- **webRTC**
+    - [ 你的VPN泄漏IP了吗：仍有20%的VPN服务商未解决WebRTC漏洞问题 ](https://www.freebuf.com/articles/web/166754.html)
 
 ## 1.3 密码查询
 - [DeHashed](https://dehashed.com/)
@@ -76,9 +80,6 @@
 - [Firefox Monitor](https://monitor.firefox.com/)
 - [Vigilante.pw ‐ The Breached Database Directory](https://vigilante.pw/)
 - **泄露密码库**
-    - https://cdn.databases.today/
-    - https://publicdbhost.dmca.gripe/
-    - https://www.databases.today/search.php?tdsourcetag=s_pctim_aiomsg
     - https://cloud.mail.ru/public/2eHX/38Ek7Lmfx?tdsourcetag=s_pctim_aiomsg
 
 ## 1.4 DNS信息
@@ -126,7 +127,6 @@
 - [IP Addresses - Plot IP](http://plotip.com/ip)
 - [IP Geolocation API and databases - DB-IP](https://db-ip.com/)
 - [IPIP.NET_最专业的 IP 地址库](https://www.ipip.net/)
-- [IP地址查询--手机号码查询归属地 | 邮政编码查询 | 长途电话区号 | 身份证号码验证在线查询网](http://www.ip138.com/)
 - [IP查询 | 查IP地址 | ip数据库 | 手机号码归属地 | 邮政编码 | worldclock 世界时间 calendar 万年历 Google PageRank Alexa rank domain whois](http://www.123cha.com/)
 - [ip查询,ip地址查询,ip位置 - Hao7188](http://www.hao7188.com/)
 - [MyIP.cn - 我的IP地址查询，网站综合信息查询，域名注册信息，搜索引擎收录，Alexa排名，Google PR，Sogou PR，反向链接，百度关键字指数](http://www.myip.cn/)
@@ -143,6 +143,7 @@
 - [DeerCloud/IPList: IP CIDRs List / IP 地址列表](https://github.com/DeerCloud/IPList)
 - [Get your IPv4 and IPv6 address instantly](https://eyep.dev/)
 - [What is my IP Address :: WebBrowserTools](https://webbrowsertools.com/ip-address/)
+- [What Is My IP Address? - ifconfig.me](https://ifconfig.me/)
 
 ---
 
@@ -162,10 +163,19 @@
 - [Whonix](https://www.whonix.org/)
 
 ## 2.2 软件/脚本
+**浏览器**
 - [Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
-- [i2p/i2p.i2p](https://github.com/i2p/i2p.i2p)
-- [abcnews/data-life](https://github.com/abcnews/data-life)
+
+**通讯**
+- [telegram](https://telegram.org/)
+
+**网络审计**
 - [W10Privacy](https://www.winprivacy.de/english-home/)
+- [abcnews/data-life](https://github.com/abcnews/data-life)
+
+**匿名**
+- [tor](https://www.torproject.org/)
+- [i2p/i2p.i2p](https://github.com/i2p/i2p.i2p)
 
 ## 2.3 浏览器扩展
 - **chrome**
@@ -216,6 +226,7 @@
 - [中国大陆内地姓名、身份证号、银行卡号生成器](http://jsrun.net/square?page=1&s=%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%8F%B7)
 - [在线身份证号码生成器](https://id.ifreesite.com/)
 - [airob0t/idcardgenerator 身份证图片生成工具](https://github.com/airob0t/idcardgenerator)
+- [gh0stkey/RGPerson](https://github.com/gh0stkey/RGPerson)
 
 ## 2.10 邮箱/信息
 - **2.10.1 查邮箱存活**
@@ -254,7 +265,6 @@
     https://sms.cngrok.com/receiving-sms
     https://yunduanxin.net/
     https://shouduanxin.com/
-    https://www.receivingsms.com/
     https://www.becmd.com/
     http://www.z-sms.com/
     http://www.114sim.com/
@@ -267,12 +277,12 @@
     https://hs3x.com/
     https://www.receivesms.net/
     http://receivesmsonline.com/
-    http://receivesmsonline.me/
     http://freesmsverification.com/
     https://sms.ndtan.net/
     https://receivefreesms.net/
     http://freereceivesmsonline.com/
     http://receivesmsonline.in/
+    https://www.visitorsms.com/
     ```
 
 - **2.10.3 临时邮箱**
@@ -292,7 +302,6 @@
     https://www.guerrillamail.com/
     http://tool.chacuo.net/mailsend
     https://maildrop.cc/
-    https://www.mailinator.com/
     https://binmail.co/home
     http://tool.chacuo.net/mailanonymous
     https://tempmail.altmails.com/
@@ -308,6 +317,9 @@
 **Microsoft**
 - [产品和服务的隐私设置，以及查看和清除 Microsoft 保存到云的数据的位置](https://account.microsoft.com/privacy/activity-history)
 - [应用授权](https://account.live.com/consent/Manage)
+
+**github**
+- [应用授权](https://github.com/settings/applications)
 
 **google**
 - [广告个性化/谷歌眼中的你](https://adssettings.google.com/authenticated)
@@ -343,6 +355,8 @@
 - **Cortana**
     - [继苹果谷歌后：微软被曝监听用户Skype和Cortana录音](https://tech.sina.com.cn/i/2019-08-08/doc-ihytcitm7662431.shtml)
     - [Revealed: Microsoft Contractors Are Listening to Some Skype Calls](https://www.vice.com/en_us/article/xweqbq/microsoft-contractors-listen-to-skype-calls)
+    - [微软被指使用廉价合同工完成Cortana语音收听工作](https://www.cnbeta.com/articles/tech/879681.htm)
+    - [微软：暂不会停止对 Skype 和 Cortana 对话的人工审查](http://hackernews.cc/archives/26954)
 
 - **Google Home**
     - [谷歌承认通过语音助手收集用户谈话内容：仅用于开发](https://www.ithome.com/0/433/712.htm)
@@ -355,6 +369,10 @@
 - **Misc**
     - [卖二手设备一定要注意，你的信息可能并没被删除](http://www.mottoin.com/detail/3933.html)
 
+- **MIUI**
+    - [1000字够不够？小米MIUI 10去广告教程](https://zhuanlan.zhihu.com/p/58415240)
+    - [How to disable most push advertisement on MIUI China Version](https://telegra.ph/How-to-disable-most-push-advertisement-on-MIUI-China-Version-02-01)
+
 - **ios**
 
     设置-->隐私-->定位服务-->系统服务-->重要地点
@@ -364,6 +382,12 @@
     - [谷歌崩溃报告究竟收集了哪些信息 个人信息如何处置](https://www.cnbeta.com/articles/tech/873763.htm)
     - [用户浏览器被互联网大厂私自【托管】？仔细一查，这事并不简单](https://www.ithome.com/0/437/940.htm)
 
+    ---
+
+    **隐身模式**
+    - [Bypassing anti-incognito detection in Google Chrome](https://mishravikas.com/articles/2019-07/bypassing-anti-incognito-detection-google-chrome.html)
+    - [Google Chrome Incognito Mode Can Still Be Detected by These Methods](https://www.bleepingcomputer.com/news/google/google-chrome-incognito-mode-can-still-be-detected-by-these-methods/)
+
 - **EDGE**
     - [UWP版EDGE浏览器被发现将用户安全标识符和网址发送给微软分析](https://www.landiannews.com/archives/61675.html)
     - [Edge被吐槽向微软发送包含用户SID和访问站点完整URL等在内的信息](https://www.cnbeta.com/articles/tech/870695.htm)
@@ -372,9 +396,25 @@
     - [facebook正在你下载的照片中嵌入跟踪数据](https://twitter.com/oasace/status/1149181539000864769)
     - [Facebook Embeds 'Hidden Codes' To Track Who Sees And Shares Your Photos](https://www.forbes.com/sites/zakdoffman/2019/07/14/facebook-is-embedding-hidden-codes-to-track-all-your-uploaded-photos-report/#736d099e1592)
 
+    ---
+
+    知情人士透露称，Facebook付费聘请几百名外部承包商，让他们转录音频片段，这些音频来自使用Facebook服务的用户。
+
+    - [Messenger 发音频安全吗？FB 承认曾转录用户音频](http://hackernews.cc/archives/26923)
+    - [彭博：Facebook雇人记录用户语音通话以改善AI技术](https://tech.sina.com.cn/i/2019-08-14/doc-ihytcitm8999002.shtml)
+
 - **firefox**
     - [Firefox火狐国际版和中文版的区别](http://www.177kan.com/html/2017033130.html)
     - [Firefox 如何查看和切换 本地服务 与 全球服务](http://mozilla.com.cn/forum.php?mod=viewthread&tid=330960)
+
+- **kaspersky**
+
+    安全研究人员在测试卡巴斯基杀毒软件时发现它会以安全的名义在用户访问的每一个网页注入它的脚本，而这个脚本还带有唯一ID，这个ID在不同计算机上是不同的，也就是说它可以作为跟踪代码使用。研究人员将这一发现报告给了卡巴斯基。卡巴斯基承认了数据泄漏，它释出了补丁修复了编号为CVE-2019-8286的问题。这个补丁去除了唯一ID，留下了相同的ID，也就是说网站仍然会知道有安装了卡巴斯基软件的用户访问了。
+    - [卡巴斯基修复四年老漏洞 注入 HTML 源码的唯一标识符会泄露用户隐私](http://hackernews.cc/archives/26982)
+    - [Unique Kaspersky AV User ID Allowed 3rd-Party Web Tracking](https://www.bleepingcomputer.com/news/security/unique-kaspersky-av-user-id-allowed-3rd-party-web-tracking/)
+
+- **Netflix**
+    - [Netflix 解释他们追踪用户活动数据的原因](https://cn.engadget.com/2019/08/01/netflix-physical-activity-android-test/)
 
 - **Office 365**
     - [Office 365的Webmail在电子邮件中显示用户的IP地址](https://www.bleepingcomputer.com/news/microsoft/microsoft-office-365-webmail-exposes-users-ip-address-in-emails/)
@@ -392,6 +432,26 @@
 
 - **Skype**
     - [当Skype翻译器功能处于活动状态时 微软承包商可以获知对话内容](https://www.cnbeta.com/articles/tech/876211.htm)
+
+- **telegram**
+
+    这些网站可以分析出来聊天情况，活跃情况。
+    - [Combot](https://combot.org/)
+    - [tele.me: the front page of Telegram communities](https://tele.me/)
+
+    ---
+
+    频道索引
+    - [Largest catalog of Telegram channels. Statistics, analytics, TOP chart. Telegram Analytics.](https://tgstat.com/)
+
+    ---
+
+    Telegram 账号的"数字 id"是注册时间越晚就越大吗？
+
+    不是。如果多注册一些账号，可以发现有可能后注册的账号数字 id 是要小于先期注册的，因此通过数字 id 来判断一个账号是否为新号是没有依据的。出现这种现象，应该是由于旧账号注销后，该账号的数字 id 又被重新分配给新注册的账号。Telegram 官方客户端无法显示账号数字 id，若想查询自己的账号数字id可以用过机器人 @getidsbot ，还有其他的机器人也有类似的功能，某些第三方客户端也可以显示账号的数字id（请谨慎使用第三方客户端）。
+
+- **Twitter**
+    - [Twitter承认未经允许将用户数据与广告商共享](https://www.cnbeta.com/articles/tech/877047.htm)
 
 - **百度云**
 
@@ -502,10 +562,14 @@
 
 - **tips**
     1. 对于各类平台尽量使用不同昵称、头像。
-    2. 多平台不要使用统一、相似的密码，请建立一套自己的密码管理方式。
+    2. 多平台不要使用统一、相似的密码，请建立一套自己的密码管理方式，推荐使用密码管理器。
     3. 管住自己的炫耀欲。
-    4. 不要相信哪个公司不作恶、重视隐私。
+    4. 不要相信哪个公司不作恶、重视隐私。（感觉和2有冲突啊 XD）
+    5. 尽量少用部分浏览器“记住密码”的功能，chrome 是明文保存，而firefox，可以参考该新闻 https://www.bleepingcomputer.com/news/security/mozilla-firefox-bug-let-third-parties-access-saved-passwords/
+    6. 不要以为开虚拟机、挂 vpn 就抓不到你,webRTC 泄露 IP，浏览器指纹，通过 DNS 判断(参考网飞)，系统时间，浏览器 0day，等等等等。
 
 ---
+
+## 免责声明
 
 `本项目所有内容,仅供学习和研究使用,请勿使用项目的技术手段用于非法用途,任何人造成的任何负面影响,与本人无关。`
