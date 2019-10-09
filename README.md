@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./img/logo.png">
+    <img src="./assets/img/logo.png">
 </p>
 
 ---
@@ -11,54 +11,93 @@
 - Bruce Schneier《应用密码学》
 
 <p align="center">
-    <a href="https://en.wikipedia.org/wiki/Wojciech_Kossak"><img src=".//img/readme.jpg"></a>
+    <a href="https://en.wikipedia.org/wiki/Wojciech_Kossak"><img src=".//assets/img/readme.jpg"></a>
 </p>
 
-```markdown
-1. 查隐秘性
-- 1.1 隐私查询
-- 1.2 浏览器指纹
-- 1.3 密码查询
-- 1.4 DNS信息
-- 1.5 定位
-2. 保护手段
-- 2.1 操作系统
-- 2.2 软件/脚本
-- 2.3 浏览器扩展
-- 2.4 安全删除
-- 2.5 加密
-- 2.6 flash
-- 2.7 输入法
-- 2.8 搜索引擎
-- 2.9 身份生成
-- 2.10 邮箱/信息
-    - 2.10.1 查邮箱存活
-    - 2.10.2 短信接码
-    - 2.10.3 临时邮箱
-    - 2.10.4 匿名邮箱
-- 2.11 平台管控设置
-3. Misc
-- 3.1 设备
-- 3.2 平台
-- 3.3 Life
-    - 3.3.1 飞机
-    - 3.3.2 船舶
-    - 3.3.3 可信度
-```
+**项目起因:** 为了保护自己的隐私，慢慢的开始学习与收集各种手段方法、网站、工具，我把这种行为称作数字洁癖。这些手段方法藏着掖着也不能当传家宝，那干脆就分享出来造福大众。
 
-`注: 如果有好的建议或方案，欢迎提交 issues`
+**涉及内容:** 个人的隐私保护、查询手段，开源信息收集(OSINT)对抗等
 
-还不清楚严重性？进来了解近年来的数据泄露、供应链污染事件：[Dork-Admin](https://github.com/No-Github/Dork-Admin)
+**更新时间:** 每月月初,节假日随机
+
+**事件集合:** 还不清楚严重性？进来了解近年来的数据泄露、供应链污染事件：[Dork-Admin](https://github.com/No-Github/Dork-Admin)
 
 ---
 
-# 1. 查隐秘性
-## 1.1 隐私查询
+## 免责声明
+
+1. `本项目所有内容,仅供学习和研究使用,请勿使用项目的技术手段用于非法用途,任何人造成的任何负面影响,与本人无关。`
+
+2. `本文档所有内容、新闻皆不代表本人态度、立场，如果有建议或方案，欢迎提交 issues`
+
+3. `未收任何广告费用,推荐的所有工具链接与本人无任何利害关系`
+
+**tips**
+1. 对于各类平台尽量使用不同昵称、头像。
+2. 多平台不要使用统一、相似的密码，请建立一套自己的密码管理方式，推荐使用密码管理器。对于密码管理器本身的安全性，可以参考这个报告 https://www.securityevaluators.com/casestudies/password-manager-hacking/
+3. 管住自己的炫耀欲。
+4. 不要相信哪个公司不作恶、重视隐私。（感觉和2有冲突啊 XD）
+5. 尽量少用部分浏览器“记住密码”的功能，chrome 是明文保存，而firefox，可以参考该新闻 https://www.bleepingcomputer.com/news/security/mozilla-firefox-bug-let-third-parties-access-saved-passwords/
+6. 不要以为开虚拟机、挂 vpn 就抓不到你,webRTC 泄露 IP，浏览器指纹，通过 DNS 判断(参考网飞)，系统时间，浏览器 0day，等等等等。
+7. 所以不要干坏事、不要干坏事、不要干坏事
+
+---
+
+## 大纲
+* [查隐秘性](#查隐秘性)
+    * [隐私查询](#隐私查询)
+    * [浏览器指纹](#浏览器指纹)
+    * [密码查询](#密码查询)
+    * [DNS信息](#DNS信息)
+    * [定位](#定位)
+* [保护手段](#保护手段)
+    * [操作系统](#操作系统)
+    * [软件/脚本](#软件/脚本)
+    * [浏览器扩展](#浏览器扩展)
+    * [安全删除](#安全删除)
+    * [加密](#加密)
+    * [flash](#flash(最好的选择就是远离flash))
+    * [輸入法](#輸入法)
+    * [搜索引擎](#搜索引擎)
+    * [身份生成](#身份生成)
+    * [邮箱/信息](#邮箱/信息)
+        * [查邮箱存活](#查邮箱存活)
+        * [短信接码](#短信接码)
+        * [临时邮箱](#临时邮箱)
+        * [匿名邮箱](#匿名邮箱)
+    * [平台管控设置](#平台管控设置)
+* [OSINT](#OSINT)
+    * [设备-语音助手](#设备-语音助手(结果发现大家都在干😒))
+    * [平台](#平台)
+    * [敏感信息](#敏感信息)
+        * [EXIF信息](#EXIF信息)
+    * [各类搜索](#各类搜索)
+        * [航班](#航班)
+        * [船舶](#船舶)
+        * [可信度](#可信度)
+        * [搜图](#搜图)
+            * [acg](#acg)
+        * [hack](#hack)
+            * [wooyun](#wooyun)
+        * [学术](#学术)
+        * [物流](#物流)
+        * [专利/商标](#专利/商标)
+        * [报刊](#报刊)
+        * [图表](#图表)
+
+---
+
+# 查隐秘性
+## 隐私查询
 - [查你这个IP下载过哪些磁力链接🔗 太缺德了😂 Torrent downloads and distributions for IP](http://iknowwhatyoudownload.com/)
 - [你注册过哪些网站？一搜便知](https://reg007.com/)
 - [Instant Username Search](https://instantusername.com/#/)
+- [n0tr00t/Sreg](https://github.com/n0tr00t/Sreg) - Sreg 可对使用者通过输入 email、phone、username 的返回用户注册的所有互联网护照信息。
+- [seadog007/breach.tw](https://github.com/seadog007/breach.tw) - 一种可以跟踪数据违规行为的服务，例如“Have I Been Pwned”，但这是针对台湾的。
 
-## 1.2 浏览器指纹
+---
+
+## 浏览器指纹
 - [Am I unique?](https://amiunique.org/fp)
 - [Unique Machine](http://uniquemachine.org/)
 - [Panopticlick](https://panopticlick.eff.org/)
@@ -73,7 +112,9 @@
 - **webRTC**
     - [ 你的VPN泄漏IP了吗：仍有20%的VPN服务商未解决WebRTC漏洞问题 ](https://www.freebuf.com/articles/web/166754.html)
 
-## 1.3 密码查询
+---
+
+## 密码查询
 - [DeHashed](https://dehashed.com/)
 - [Have I Been Pwned: Check if your email has been compromised in a data breach](https://haveibeenpwned.com/)
 - [pwd query](https://pwdquery.xyz/)
@@ -81,12 +122,17 @@
 - [Vigilante.pw ‐ The Breached Database Directory](https://vigilante.pw/)
 - **泄露密码库**
     - https://cloud.mail.ru/public/2eHX/38Ek7Lmfx?tdsourcetag=s_pctim_aiomsg
+    - https://downloads.skullsecurity.org/passwords/
 
-## 1.4 DNS信息
+---
+
+## DNS信息
 - [DNS leak test](https://dnsleaktest.com/)
 - [What's My DNS Server?](http://www.whatsmydnsserver.com/)
 
-## 1.5 定位
+---
+
+## 定位
 **案例**
 - [看我如何通过邮箱获取IP定位](http://www.freebuf.com/articles/database/185954.html)
 - [社工之经度纬度定位-50米以内](https://bbs.ichunqiu.com/thread-23489-1-26.html)
@@ -147,7 +193,7 @@
 
 ---
 
-# 2. 保护手段
+# 保护手段
 **文章**
 - [GoogleAlternatives - FuckOffGoogle](https://wiki.fuckoffgoogle.de/index.php?title=GoogleAlternatives)
 - [安全手册：这里是你需要的几乎所有安全上网工具；以及为什么建议不要使用以美国为基地的网络服务 — Steemit](https://steemit.com/life/@iyouport/7nfymr)
@@ -157,27 +203,31 @@
 - [终极在线隐私指南](https://www.bestvpn.com/guides/the-ultimate-privacy-guide/#avoidus)
 - [隐私大爆炸，你得学几招保护自己](https://evilcos.me/yinsi.html)
 
-## 2.1 操作系统
+## 操作系统
 - [Tails](https://tails.boum.org/about/index.en.html)
 - [Qubes OS](https://www.qubes-os.org/)
 - [Whonix](https://www.whonix.org/)
 
-## 2.2 软件/脚本
-**浏览器**
-- [Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
+---
 
-**通讯**
-- [telegram](https://telegram.org/)
+## 软件/脚本
+- **浏览器**
+    - [Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
 
-**网络审计**
-- [W10Privacy](https://www.winprivacy.de/english-home/)
-- [abcnews/data-life](https://github.com/abcnews/data-life)
+- **通讯**
+    - [telegram](https://telegram.org/)
 
-**匿名**
-- [tor](https://www.torproject.org/)
-- [i2p/i2p.i2p](https://github.com/i2p/i2p.i2p)
+- **网络审计**
+    - [W10Privacy](https://www.winprivacy.de/english-home/)
+    - [abcnews/data-life](https://github.com/abcnews/data-life)
 
-## 2.3 浏览器扩展
+- **匿名**
+    - [tor](https://www.torproject.org/)
+    - [i2p/i2p.i2p](https://github.com/i2p/i2p.i2p)
+
+---
+
+## 浏览器扩展
 - **chrome**
     - [Decentraleyes](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj)
     - [Cookie AutoDelete](https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh)
@@ -202,151 +252,170 @@
     - ["Stylish" browser extension steals all your internet history](https://robertheaton.com/2018/07/02/stylish-browser-extension-steals-your-internet-history/)
     - [Stylus is a Stylish fork without analytics](https://www.ghacks.net/2017/05/16/stylus-is-a-stylish-fork-without-analytics/)
 
-## 2.4 安全删除
+## 安全删除
 - [如何：在Windows上安全地删除数据](https://ssd.eff.org/en/module/how-delete-your-data-securely-windows)
 
-## 2.5 加密
+---
+
+## 加密
 - [VeraCrypt](https://www.veracrypt.fr/en/Home.html)
 - [VHD虚拟磁盘+BitLocker加密](https://bbs.kafan.cn/thread-2115703-1-1.html)
 
-## 2.6 flash (最好的选择就是远离 flash)
+---
+
+## flash(最好的选择就是远离flash)
 - [支持到32_0_0_223_Adobe{过}{滤}FlashPlayer去区域限制](https://bbs.kafan.cn/thread-2123485-1-1.html)
 
-## 2.7 輸入法
+---
+
+## 輸入法
 - [RIME](https://github.com/rime)
 
-## 2.8 搜索引擎
+---
+
+## 搜索引擎
 - [DuckDuckGo — Privacy, simplified.](https://start.duckduckgo.com/)
 - [searx.me](https://searx.me/)
 - [StartPage Web Search](https://www.startpage.com/)
 
-## 2.9 身份生成
+---
+
+## 身份生成
 - [Generate a Random Name](https://www.fakenamegenerator.com/)
+- [Fake Address Generator All Over the World - Fake Address, Random Address Generator](https://www.fakeaddressgenerator.com/Index/index)
 - [在线身份证号码生成器](http://jbjb.zouri.jp/)
 - [中国大陆内地姓名、身份证号、银行卡号生成器](http://jsrun.net/square?page=1&s=%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%8F%B7)
 - [在线身份证号码生成器](https://id.ifreesite.com/)
 - [airob0t/idcardgenerator 身份证图片生成工具](https://github.com/airob0t/idcardgenerator)
 - [gh0stkey/RGPerson](https://github.com/gh0stkey/RGPerson)
 
-## 2.10 邮箱/信息
-- **2.10.1 查邮箱存活**
-    ```
-    http://tool.chacuo.net/mailverify
-    https://verify-email.org/
-    http://www.emailcamel.com/
-    ```
+---
 
-- **2.10.2 短信接码**
+## 邮箱/信息
+### 查邮箱存活
+```
+http://tool.chacuo.net/mailverify
+https://verify-email.org/
+http://www.emailcamel.com/
+```
 
-    `注:此类平台来的快，去的快，慎用`
-    ```
-    https://www.chenweiliang.com/cwl-558.html
-    https://51.ruyo.net/7789.html
-    https://miracletele.com/sms/
-    http://sms.sellaite.com/
-    https://catchsms.com/
-    https://www.freeonlinephone.org/
-    https://smsnumbersonline.com/
-    https://www.textnow.com/
-    https://www.receive-a-sms.com/
-    http://receive-sms-now.com/
-    https://receive-sms.com/
-    https://www.receive-sms-online.info/
-    https://sms-online.co/receive-free-sms
-    http://receive-sms-online.com/
-    http://receivefreesms.com/
-    https://www.receivesmsonline.net/
-    https://smsreceivefree.com/
-    https://receive-a-sms.com/
-    http://www.afreesms.com/freesms/
-    https://textfree.us/#/login
-    https://www.pdflibr.com/
-    https://sms-empfangen.com/
-    https://sms.cngrok.com/receiving-sms
-    https://yunduanxin.net/
-    https://shouduanxin.com/
-    https://www.becmd.com/
-    http://www.z-sms.com/
-    http://www.114sim.com/
-    https://shouduanxin.com/en/
-    http://www.345sms.com/
-    https://receiveasms.com/
-    https://www.gsmchecker.com/receive-sms-online
-    http://receivesmsverification.com/
-    http://smsget.net/en
-    https://hs3x.com/
-    https://www.receivesms.net/
-    http://receivesmsonline.com/
-    http://freesmsverification.com/
-    https://sms.ndtan.net/
-    https://receivefreesms.net/
-    http://freereceivesmsonline.com/
-    http://receivesmsonline.in/
-    https://www.visitorsms.com/
-    ```
+### 短信接码
 
-- **2.10.3 临时邮箱**
+`注:此类平台来的快，去的快，慎用`
+```
+https://www.chenweiliang.com/cwl-558.html
+https://51.ruyo.net/7789.html
+https://miracletele.com/sms/
+http://sms.sellaite.com/
+https://catchsms.com/
+https://www.freeonlinephone.org/
+https://smsnumbersonline.com/
+https://www.textnow.com/
+https://www.receive-a-sms.com/
+http://receive-sms-now.com/
+https://receive-sms.com/
+https://www.receive-sms-online.info/
+https://sms-online.co/receive-free-sms
+http://receive-sms-online.com/
+http://receivefreesms.com/
+https://www.receivesmsonline.net/
+https://smsreceivefree.com/
+https://receive-a-sms.com/
+http://www.afreesms.com/freesms/
+https://textfree.us/#/login
+https://www.pdflibr.com/
+https://sms-empfangen.com/
+https://sms.cngrok.com/receiving-sms
+https://yunduanxin.net/
+https://shouduanxin.com/
+https://www.becmd.com/
+http://www.z-sms.com/
+http://www.114sim.com/
+https://shouduanxin.com/en/
+http://www.345sms.com/
+https://receiveasms.com/
+https://www.gsmchecker.com/receive-sms-online
+http://receivesmsverification.com/
+http://smsget.net/en
+https://hs3x.com/
+https://www.receivesms.net/
+http://receivesmsonline.com/
+http://freesmsverification.com/
+https://sms.ndtan.net/
+https://receivefreesms.net/
+http://freereceivesmsonline.com/
+http://receivesmsonline.in/
+https://www.visitorsms.com/
+```
 
-    `注:此类平台来的快，去的快，慎用`
-    ```
-    http://www.yopmail.com/zh/
-    http://gfan.gvoice.men/
-    https://10minutemail.com/
-    https://10minutemail.net/
-    http://mail.bccto.me/
-    http://www.bccto.me/
-    https://www.guerrillamail.com/zh/inbox
-    http://www.fakemailgenerator.com/#/dayrep.com/Firly1970/
-    https://tutanota.com/
-    https://temp-mail.org/en/
-    https://www.guerrillamail.com/
-    http://tool.chacuo.net/mailsend
-    https://maildrop.cc/
-    https://binmail.co/home
-    http://tool.chacuo.net/mailanonymous
-    https://tempmail.altmails.com/
-    ```
+### 临时邮箱
 
-- **2.10.4 匿名邮箱**
-    - [ProtonMail](https://mail.protonmail.com/inbox)
-    - [Openmailbox](https://www.openmailbox.org/)
-    - [Get secure, reliable email hosting – FastMail](https://www.fastmail.com/)
+`注:此类平台来的快，去的快，慎用`
+```
+http://www.yopmail.com/zh/
+http://gfan.gvoice.men/
+https://10minutemail.com/
+https://10minutemail.net/
+http://mail.bccto.me/
+http://www.bccto.me/
+https://www.guerrillamail.com/zh/inbox
+http://www.fakemailgenerator.com/#/dayrep.com/Firly1970/
+https://tutanota.com/
+https://temp-mail.org/en/
+https://www.guerrillamail.com/
+http://tool.chacuo.net/mailsend
+https://maildrop.cc/
+https://binmail.co/home
+http://tool.chacuo.net/mailanonymous
+https://tempmail.altmails.com/
+```
 
-## 2.11 平台管控设置
-
-**Microsoft**
-- [产品和服务的隐私设置，以及查看和清除 Microsoft 保存到云的数据的位置](https://account.microsoft.com/privacy/activity-history)
-- [应用授权](https://account.live.com/consent/Manage)
-
-**github**
-- [应用授权](https://github.com/settings/applications)
-
-**google**
-- [广告个性化/谷歌眼中的你](https://adssettings.google.com/authenticated)
-- [活动记录](https://myactivity.google.com/myactivity)
-- [活动控件](https://myaccount.google.com/activitycontrols?pli=1)
-- [最近使用过的设备](https://myaccount.google.com/device-activity)
-- [应用授权](https://myaccount.google.com/permissions)
-- 扩展阅读
-    - [自動刪除你的 Google 網路和應用程式活動紀錄設定教學](https://free.com.tw/google-automatically-delete-data/)
-
-**twitter**
-- 应用授权 [旧版](https://twitter.com/settings/sessions) [新版](https://twitter.com/settings/applications)
-- [興趣和廣告資料](https://twitter.com/settings/your_twitter_data/ads)
-- [密碼重設保護](https://twitter.com/settings/security)
-
-**tencent**
-- [广告个性化](https://privacy.qq.com/ads/optout.html) (注:这里很鸡贼，他会告诉你不可以直接访问，其实直接F12把弹框删掉即可，真有你的啊，腾讯)
-- [应用授权](https://connect.qq.com/manage.html#/appauth/user)
-- 微信应用授权 [设置 - 隐私 - 授权管理]
-
-**baidu**
-- [应用授权](https://passport.baidu.com/accountbind?tpl=)
+### 匿名邮箱
+- [ProtonMail](https://mail.protonmail.com/inbox)
+- [Openmailbox](https://www.openmailbox.org/)
+- [Get secure, reliable email hosting – FastMail](https://www.fastmail.com/)
 
 ---
 
-# 3. Misc
-## 3.1 设备/语音助手(结果发现大家都在干😒)
+## 平台管控设置
+
+- **Microsoft**
+    - [产品和服务的隐私设置，以及查看和清除 Microsoft 保存到云的数据的位置](https://account.microsoft.com/privacy/activity-history)
+    - [应用授权](https://account.live.com/consent/Manage)
+
+- **github**
+    - [应用授权](https://github.com/settings/applications)
+
+- **google**
+    - [广告个性化/谷歌眼中的你](https://adssettings.google.com/authenticated)
+    - [活动记录](https://myactivity.google.com/myactivity)
+    - [活动控件](https://myaccount.google.com/activitycontrols?pli=1)
+    - [最近使用过的设备](https://myaccount.google.com/device-activity)
+    - [应用授权](https://myaccount.google.com/permissions)
+    - 扩展阅读
+        - [自動刪除你的 Google 網路和應用程式活動紀錄設定教學](https://free.com.tw/google-automatically-delete-data/)
+
+- **twitter**
+    - 应用授权 [旧版](https://twitter.com/settings/sessions) [新版](https://twitter.com/settings/applications)
+    - [興趣和廣告資料](https://twitter.com/settings/your_twitter_data/ads)
+    - [密碼重設保護](https://twitter.com/settings/security)
+
+- **tencent**
+    - [广告个性化](https://privacy.qq.com/ads/optout.html) (注:这里很鸡贼，他会告诉你不可以直接访问，其实直接F12把弹框删掉即可，真有你的啊，腾讯)
+    - [应用授权](https://connect.qq.com/manage.html#/appauth/user)
+    - 微信应用授权 [设置 - 隐私 - 授权管理]
+
+- **baidu**
+    - [应用授权](https://passport.baidu.com/accountbind?tpl=)
+
+---
+
+# OSINT
+**相关的网站与资源**
+- [丁爸网](http://dingba.top/)
+- 微信公众号 情报小蜜蜂 WeChat ID little_bee007
+
+## 设备-语音助手(结果发现大家都在干😒)
 - **Alexa**
     - [除非手动删除，不然 Alexa 上的语音资料会被亚马逊一直保留](https://cn.engadget.com/2019/07/04/amazon-keeps-alexa-transcripts/)
     - [隔屏有耳调查｜亚马逊智能音箱有千人监听团队，曾听到性侵案](https://www.thepaper.cn/newsDetail_forward_3290014)
@@ -362,22 +431,37 @@
     - [谷歌承认通过语音助手收集用户谈话内容：仅用于开发](https://www.ithome.com/0/433/712.htm)
     - [Google admits workers listen to some smart device recordings](https://thehill.com/policy/technology/452620-google-admits-workers-listen-to-some-smart-device-recordings)
 
+- **HP printers**
+    - [惠普打印机被发现偷偷回传数据：隐藏极深](https://tech.ifeng.com/c/7q1bbVclnyh)
+    - [HP printers try to send data back to HP about your devices and what you print](https://robertheaton.com/2019/09/15/hp-printers-send-data-on-what-you-print-back-to-hp/)
+
 - **Siri**
     - [Siri被曝偷偷给用户隐私录音，还上传给苹果](https://www.ednchina.com/news/201907291202.html)
     - [苹果回应Siri录音用户谈话内容：使用了1%的用户录音](https://www.pingwest.com/w/191896)
+    - [Siri 人工评估计划的员工说，自己每天要听 1000 条录音](https://www.ifanr.com/1251668)
+    - [Apple to stop default practice of keeping Siri recordings](https://www.reuters.com/article/us-apple-privacy-siri/apple-says-to-restart-siri-reviews-with-new-controls-idUSKCN1VI1X3)
 
 - **Misc**
     - [卖二手设备一定要注意，你的信息可能并没被删除](http://www.mottoin.com/detail/3933.html)
 
+    - ![image](./assets/img/手机取证.jpg)
+
 - **MIUI**
     - [1000字够不够？小米MIUI 10去广告教程](https://zhuanlan.zhihu.com/p/58415240)
     - [How to disable most push advertisement on MIUI China Version](https://telegra.ph/How-to-disable-most-push-advertisement-on-MIUI-China-Version-02-01)
+    - 在「设置-小米账号-隐私协议等-系统广告」里关闭广告。
+    ![image](./assets/img/xiaomiad.png)
 
 - **ios**
 
     设置-->隐私-->定位服务-->系统服务-->重要地点
 
-## 3.2 平台/软件
+---
+
+## 平台/软件
+- **Airbnb**
+    - [Airbnb上的OSINT信息收集](https://mp.weixin.qq.com/s/J8J6atXxhG4kqtXsG_9odw)
+
 - **Chrome**
     - [谷歌崩溃报告究竟收集了哪些信息 个人信息如何处置](https://www.cnbeta.com/articles/tech/873763.htm)
     - [用户浏览器被互联网大厂私自【托管】？仔细一查，这事并不简单](https://www.ithome.com/0/437/940.htm)
@@ -407,6 +491,9 @@
     - [Firefox火狐国际版和中文版的区别](http://www.177kan.com/html/2017033130.html)
     - [Firefox 如何查看和切换 本地服务 与 全球服务](http://mozilla.com.cn/forum.php?mod=viewthread&tid=330960)
 
+- **google**
+    - [Google accused of leaking personal data to thousands of advertisers](https://www.zdnet.com/article/google-accused-of-leaking-personal-data-to-thousands-of-advertisers/)
+
 - **kaspersky**
 
     安全研究人员在测试卡巴斯基杀毒软件时发现它会以安全的名义在用户访问的每一个网页注入它的脚本，而这个脚本还带有唯一ID，这个ID在不同计算机上是不同的，也就是说它可以作为跟踪代码使用。研究人员将这一发现报告给了卡巴斯基。卡巴斯基承认了数据泄漏，它释出了补丁修复了编号为CVE-2019-8286的问题。这个补丁去除了唯一ID，留下了相同的ID，也就是说网站仍然会知道有安装了卡巴斯基软件的用户访问了。
@@ -419,6 +506,11 @@
 - **Office 365**
     - [Office 365的Webmail在电子邮件中显示用户的IP地址](https://www.bleepingcomputer.com/news/microsoft/microsoft-office-365-webmail-exposes-users-ip-address-in-emails/)
 
+- **Opera**
+
+    Brave 的 Jonathan Sampson 在 Twitter 上发表了一系列帖子，他在 Windows 机器上第一次安装了 Google Chrome、Microsoft Edge (Chromium) Beta、Opera 和 Vivaldi 、Dissenter、Brave 和 Firefox，每个浏览器在安装之后都打开几分钟，期间他会对浏览器发出的请求进行抓包，对抓包结果进行一番分析。他发现 Brave 会发出 23 个请求，访问的都是 Brave.com 域名；Firefox 会发出 26 个请求，部分与 Google 的服务有关；Edge 会发出超过 130 个请求，有微软的还有 Google、Facebook 和 Twitter 的，Edge 在首次运行之后还收集了用户系统的详细信息；Opera 发出的请求有些特别，它有 19 个请求指向了俄罗斯的 yandex.ru，还有亚马逊、ebay 和阿里巴巴，它还预加载了十多个第三方网站的 cookies，它甚至已经开始与第三方共享用户信息，许多人声称这家中国公司拥有的挪威浏览器已经变成了间谍软件。
+    - [第一次启动 Google Chrome 会发生什么？](https://www.solidot.org/story?sid=61874)
+
 - **QQ**
     - [我根据QQ步数判断出我男朋友和我朋友出轨了](https://www.douban.com/group/topic/145419238/)
 
@@ -427,7 +519,7 @@
     貌似只有 QQ 可以，TIM 不行
 
     <p align="center">
-        <img src=".//img/qq.jpg">
+        <img src=".//assets/img/qq.jpg">
     </p>
 
 - **Skype**
@@ -446,7 +538,7 @@
 
     ---
 
-    Telegram 账号的"数字 id"是注册时间越晚就越大吗？
+    **Telegram 账号的"数字 id"是注册时间越晚就越大吗？**
 
     不是。如果多注册一些账号，可以发现有可能后注册的账号数字 id 是要小于先期注册的，因此通过数字 id 来判断一个账号是否为新号是没有依据的。出现这种现象，应该是由于旧账号注销后，该账号的数字 id 又被重新分配给新注册的账号。Telegram 官方客户端无法显示账号数字 id，若想查询自己的账号数字id可以用过机器人 @getidsbot ，还有其他的机器人也有类似的功能，某些第三方客户端也可以显示账号的数字id（请谨慎使用第三方客户端）。
 
@@ -460,7 +552,7 @@
     https://pan.baidu.com/disk/discovery
 
     <p align="center">
-        <img src=".//img/baiduyun.png">
+        <img src=".//assets/img/baiduyun.png">
     </p>
 
 - **滴滴**
@@ -468,7 +560,7 @@
     我没下过 APP 版的，在支付宝中的滴滴是可以查询历史行程的。点击头像-->订单-->查看历史行程
 
     <p align="center">
-        <img src=".//img/dd.png">
+        <img src=".//assets/img/dd.png">
     </p>
 
 - **淘宝**
@@ -517,34 +609,44 @@
 
     - [支fu宝可以查婚姻状况望周知](https://www.douban.com/group/topic/142322388/)
 
-## 3.3 Life
-- **3.3.1 飞机**
-    - [Flight Tracker | Flightradar24 | Track Planes In Real-Time](https://www.flightradar24.com/)
-    - [FlightAware - 航班跟踪/航班状态/飞行跟踪](https://zh.flightaware.com/)
-    - [Flightradar24 — how it works? / Habr](https://habr.com/en/post/440596/)
-    - [real-time flight tracking | Flightadsb | VariFlight](http://flightadsb.variflight.com/)
+---
 
-- **3.3.2 船舶**
-    - [MarineTraffic: Global Ship Tracking Intelligence | AIS Marine Traffic](https://www.marinetraffic.com/)
-    - [Free AIS Ship Tracking of Marine Traffic - VesselFinder](https://www.vesselfinder.com/)
-    - [My Ship Tracking Free Realtime AIS Vessel Tracking Vessels Finder Map](https://www.myshiptracking.com/)
-    - [船舶动态查询_AIS船位_船舶跟踪_船舶定位_船舶位置查询-ShipTracker](http://www.chinaports.com/shiptracker/olv3/index.jsp)
-    - [Global Container Shipping Platform | Container Tracking, Ocean Schedules](https://shipsgo.com/)
-    - [Marine Vessel Traffic](https://www.marinevesseltraffic.com/)
-    - [Live AIS Ships Map!---shipfinder](http://www.shipfinder.com/)
-    - [船员证书查询](http://cyxx.msa.gov.cn/lycx/zslycx!init.action?flag=1)
-    - [船舶查询系统,全球最大的船舶数据库](http://app.cnss.com.cn/sochuan.php)
+## 敏感信息
+### EXIF信息
+- [EXIF信息查看器](https://exif.tuchong.com/)
+- [ExifShot App](https://exifshot.com/app/)
+- [如何为老照片添加 Exif 日期数据？ - 小众软件](https://www.appinn.com/how-to-add-exif-date-for-old-picture/)
 
-- **3.3.3 可信度**
-    - [个人信用查询搜索_企业信息查询搜索_统一社会信用代码查询-信用中国](https://www.creditchina.gov.cn/)
-    - [统一社会信用代码查询_诚信体系实名制查询_组织机构代码-全国组织机构统一社会信用代码数据服务中心(原全国组织机构代码管理中心)](https://www.cods.org.cn/)
+---
 
-    **个人**
+## 各类搜索
+### 航班
+- [Flight Tracker | Flightradar24 | Track Planes In Real-Time](https://www.flightradar24.com/)
+- [FlightAware - 航班跟踪/航班状态/飞行跟踪](https://zh.flightaware.com/)
+- [Flightradar24 — how it works? / Habr](https://habr.com/en/post/440596/)
+- [real-time flight tracking | Flightadsb | VariFlight](http://flightadsb.variflight.com/)
+- [Direct Flights | Explore all non-stop flights from any airport](https://direct-flights.com/)
+
+### 船舶
+- [MarineTraffic: Global Ship Tracking Intelligence | AIS Marine Traffic](https://www.marinetraffic.com/)
+- [Free AIS Ship Tracking of Marine Traffic - VesselFinder](https://www.vesselfinder.com/)
+- [My Ship Tracking Free Realtime AIS Vessel Tracking Vessels Finder Map](https://www.myshiptracking.com/)
+- [船舶动态查询_AIS船位_船舶跟踪_船舶定位_船舶位置查询-ShipTracker](http://www.chinaports.com/shiptracker/olv3/index.jsp)
+- [Global Container Shipping Platform | Container Tracking, Ocean Schedules](https://shipsgo.com/)
+- [Marine Vessel Traffic](https://www.marinevesseltraffic.com/)
+- [Live AIS Ships Map!---shipfinder](http://www.shipfinder.com/)
+- [船员证书查询](http://cyxx.msa.gov.cn/lycx/zslycx!init.action?flag=1)
+- [船舶查询系统,全球最大的船舶数据库](http://app.cnss.com.cn/sochuan.php)
+
+### 可信度
+- [个人信用查询搜索_企业信息查询搜索_统一社会信用代码查询-信用中国](https://www.creditchina.gov.cn/)
+- [统一社会信用代码查询_诚信体系实名制查询_组织机构代码-全国组织机构统一社会信用代码数据服务中心(原全国组织机构代码管理中心)](https://www.cods.org.cn/)
+- **个人**
     - [中国执行信息公开网](http://zxgk.court.gov.cn/)
     - [银行卡号归属地查询-银行卡开户行查询-银行卡信息查询-银行卡号网-诈骗举报](http://www.2cha.com/)
     - [中国人民银行征信中心](http://www.pbccrc.org.cn/)
 
-    **企业**
+- **企业**
     - [企查查_工商信息查询_公司企业注册信息查询_全国企业信用信息公示系统](https://www.qichacha.com/)
     - [国家企业信用信息公示系统](http://www.gsxt.gov.cn/index.html)
     - [天眼查-人人都在用企业信息调查工具_企业信息查询_公司查询_工商查询_信用查询平台](https://www.tianyancha.com/)
@@ -555,21 +657,67 @@
     - [中国海关企业进出口信用信息公示平台](http://credit.customs.gov.cn/)
     - [看准网-查工资|聊面试|评公司|搜职位|中国领先的职场信息平台](https://www.kanzhun.com/)
 
-- **EXIF信息**
-    - [EXIF信息查看器](https://exif.tuchong.com/)
-    - [ExifShot App](https://exifshot.com/app/)
-    - [如何为老照片添加 Exif 日期数据？ - 小众软件](https://www.appinn.com/how-to-add-exif-date-for-old-picture/)
+### 搜图
+- [Google 图片](https://www.google.com/imghp)
+- [Jeffrey Friedl's Image Metadata Viewer](http://exif.regex.info/exif.cgi)
+- [TinEye Reverse Image Search](https://www.tineye.com/)
+- [百度识图, "鉴"你所见](https://image.baidu.com/fr=shitu)
+- [Google Art & Culture Experiment - Art Palette](https://artsexperiments.withgoogle.com/artpalette/)
+- [Yandex.Images: search for images on the internet, search by image](https://yandex.com/images/)
 
-- **tips**
-    1. 对于各类平台尽量使用不同昵称、头像。
-    2. 多平台不要使用统一、相似的密码，请建立一套自己的密码管理方式，推荐使用密码管理器。
-    3. 管住自己的炫耀欲。
-    4. 不要相信哪个公司不作恶、重视隐私。（感觉和2有冲突啊 XD）
-    5. 尽量少用部分浏览器“记住密码”的功能，chrome 是明文保存，而firefox，可以参考该新闻 https://www.bleepingcomputer.com/news/security/mozilla-firefox-bug-let-third-parties-access-saved-passwords/
-    6. 不要以为开虚拟机、挂 vpn 就抓不到你,webRTC 泄露 IP，浏览器指纹，通过 DNS 判断(参考网飞)，系统时间，浏览器 0day，等等等等。
+#### acg
+- [Multi-service image search](https://iqdb.org/)
+- [SauceNAO Image Search](https://saucenao.com/)
+- [二次元画像詳細検索](https://ascii2d.net/)
+- [WAIT: What Anime Is This? - Anime Scene Search Engine](https://trace.moe/)
 
----
+### hack
+- [Censys](https://censys.io/)
+- [DNSDB](https://www.dnsdb.io/zh-cn/)
+- [FOFA Pro - 网络空间安全搜索引擎，网络空间搜索引擎，网络空间测绘，安全态势感知](https://fofa.so/)
+- [Punk.sh](https://punk.sh/#/)
+- [Shodan](https://www.shodan.io/)
+- [ZoomEye - Cyberspace Search Engine](https://www.zoomeye.org/)
+- [CertDB — SSL certificates search engine](https://certdb.com/)
+- [searchcode | source code search engine](https://searchcode.com/)
 
-## 免责声明
+#### wooyun
+- https://bugs.shuimugan.com/
+- https://www.secpulse.com/archives/category/vul
+- https://github.com/hanc00l/wooyun_public
+- https://drops.tuisec.win/
+- http://wooyun.jozxing.cc/
+- http://drops.xmd5.com/
+- http://www.anquan.us/
+- http://wy.zone.ci/index.php
+- https://shuimugan.com/
+- https://wooyun.js.org/
+- http://drop.zone.ci/
 
-`本项目所有内容,仅供学习和研究使用,请勿使用项目的技术手段用于非法用途,任何人造成的任何负面影响,与本人无关。`
+### 学术
+- [libgen](https://libgen.pw/)
+- [Library Genesis](http://libgen.io/)
+- [Semantic Scholar - An academic search engine for scientific articles](https://www.semanticscholar.org/)
+- [远见搜索—站得更高，看得更远！](https://yuanjian.cnki.net/)
+
+### 物流
+- [快递100-查快递,寄快递,上快递100](http://www.kuaidi100.com/)
+- [http://www.56888.net/comm/kuaidi.aspx](http://www.56888.net/comm/kuaidi.aspx)
+- [中华人民共和国国家邮政局](http://www.spb.gov.cn/yzbmcx/)
+- [快递查询_快递单号查询_查快递CKD.CN](http://www.ckd.cn/)
+- [中华人民共和国国家邮政局](http://www.spb.gov.cn/yzbmcx/#)
+- [全球物流查询平台 | 17TRACK](https://www.17track.net/zh-cn)
+
+### 专利/商标
+- [佰腾网](https://www.patexplorer.com/)
+- [Dawei Innojoy Patent Search Engine](http://www.innojoy.com/search/index.html)
+- [SooPAT 专利搜索](http://www1.soopat.com/Home/IIndex)
+- [润桐RainPat专利检索---免费，绝对免费，永久免费](https://www.rainpat.com/)
+- [专利信息服务平台](http://search.cnipr.com/)
+- [权查查-商标查询-商标注册-商标监控-商标品牌保护-知识产权服务平台](https://www.qccip.com/)
+
+### 报刊
+- [梅子搜报网](http://mz.soubao.net/#/meizi/searchIndex)
+
+### 图表
+- [Grafiti | The Search Engine for Charts](https://beta.grafiti.io/)
