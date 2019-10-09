@@ -52,23 +52,23 @@
     * [定位](#定位)
 * [保护手段](#保护手段)
     * [操作系统](#操作系统)
-    * [软件/脚本](#软件/脚本)
+    * [软件-脚本](#软件-脚本)
     * [浏览器扩展](#浏览器扩展)
     * [安全删除](#安全删除)
     * [加密](#加密)
-    * [flash](#flash(最好的选择就是远离flash))
+    * [flash](#flash)
     * [輸入法](#輸入法)
     * [搜索引擎](#搜索引擎)
     * [身份生成](#身份生成)
-    * [邮箱/信息](#邮箱/信息)
+    * [邮箱-信息](#邮箱-信息)
         * [查邮箱存活](#查邮箱存活)
         * [短信接码](#短信接码)
         * [临时邮箱](#临时邮箱)
         * [匿名邮箱](#匿名邮箱)
     * [平台管控设置](#平台管控设置)
 * [OSINT](#OSINT)
-    * [设备-语音助手](#设备-语音助手(结果发现大家都在干😒))
-    * [平台](#平台)
+    * [设备-语音助手](#设备-语音助手)
+    * [平台-软件](#平台-软件)
     * [敏感信息](#敏感信息)
         * [EXIF信息](#EXIF信息)
     * [各类搜索](#各类搜索)
@@ -81,7 +81,7 @@
             * [wooyun](#wooyun)
         * [学术](#学术)
         * [物流](#物流)
-        * [专利/商标](#专利/商标)
+        * [专利-商标](#专利-商标)
         * [报刊](#报刊)
         * [图表](#图表)
 
@@ -210,7 +210,7 @@
 
 ---
 
-## 软件/脚本
+## 软件-脚本
 - **浏览器**
     - [Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
 
@@ -263,7 +263,8 @@
 
 ---
 
-## flash(最好的选择就是远离flash)
+## flash
+`最好的选择就是远离flash`
 - [支持到32_0_0_223_Adobe{过}{滤}FlashPlayer去区域限制](https://bbs.kafan.cn/thread-2123485-1-1.html)
 
 ---
@@ -291,7 +292,7 @@
 
 ---
 
-## 邮箱/信息
+## 邮箱-信息
 ### 查邮箱存活
 ```
 http://tool.chacuo.net/mailverify
@@ -415,7 +416,7 @@ https://tempmail.altmails.com/
 - [丁爸网](http://dingba.top/)
 - 微信公众号 情报小蜜蜂 WeChat ID little_bee007
 
-## 设备-语音助手(结果发现大家都在干😒)
+## 设备-语音助手
 - **Alexa**
     - [除非手动删除，不然 Alexa 上的语音资料会被亚马逊一直保留](https://cn.engadget.com/2019/07/04/amazon-keeps-alexa-transcripts/)
     - [隔屏有耳调查｜亚马逊智能音箱有千人监听团队，曾听到性侵案](https://www.thepaper.cn/newsDetail_forward_3290014)
@@ -458,7 +459,7 @@ https://tempmail.altmails.com/
 
 ---
 
-## 平台/软件
+## 平台-软件
 - **Airbnb**
     - [Airbnb上的OSINT信息收集](https://mp.weixin.qq.com/s/J8J6atXxhG4kqtXsG_9odw)
 
@@ -708,7 +709,7 @@ https://tempmail.altmails.com/
 - [中华人民共和国国家邮政局](http://www.spb.gov.cn/yzbmcx/#)
 - [全球物流查询平台 | 17TRACK](https://www.17track.net/zh-cn)
 
-### 专利/商标
+### 专利-商标
 - [佰腾网](https://www.patexplorer.com/)
 - [Dawei Innojoy Patent Search Engine](http://www.innojoy.com/search/index.html)
 - [SooPAT 专利搜索](http://www1.soopat.com/Home/IIndex)
