@@ -14,13 +14,15 @@
     <a href="https://en.wikipedia.org/wiki/Wojciech_Kossak"><img src=".//assets/img/readme.jpg"></a>
 </p>
 
-**项目起因:** 为了保护自己的隐私，慢慢的开始学习与收集各种手段方法、网站、工具，我把这种行为称作数字洁癖。这些手段方法藏着掖着也不能当传家宝，那干脆就分享出来造福大众。
+**项目起因 :** 为了保护自己的隐私，慢慢的开始学习与收集各种手段方法、网站、工具，我把这种行为称作数字洁癖。这些手段方法藏着掖着也不能当传家宝，那干脆就分享出来造福大众。
 
-**涉及内容:** 个人的隐私保护、查询手段，开源信息收集(OSINT)对抗等
+**涉及内容 :** 个人的隐私保护、查询手段，开源信息收集(OSINT)对抗等
 
-**更新时间:** 每月月初,节假日随机
+**更新时间 :** 每月月初,节假日随机
 
-**事件集合:** 还不清楚严重性？进来了解近年来的数据泄露、供应链污染事件：[Dork-Admin](https://github.com/No-Github/Dork-Admin)
+**事件集合 :** 还不清楚严重性？进来了解近年来的数据泄露、供应链污染事件：[Dork-Admin](https://github.com/No-Github/Dork-Admin)
+
+**项目地址 :** https://github.com/No-Github/Digital-Privacy
 
 ---
 
@@ -30,21 +32,22 @@
 
 2. `本文档所有内容、新闻皆不代表本人态度、立场，如果有建议或方案，欢迎提交 issues`
 
-3. `未收任何广告费用,推荐的所有工具链接与本人无任何利害关系`
+3. `未收及不会收取任何广告费用,推荐的所有工具链接与本人无任何利害关系`
 
 **tips**
+
 1. 对于各类平台尽量使用不同昵称、头像。
 2. 多平台不要使用统一、相似的密码，请建立一套自己的密码管理方式，推荐使用密码管理器。对于密码管理器本身的安全性，可以参考这个报告 https://www.securityevaluators.com/casestudies/password-manager-hacking/
 3. 管住自己的炫耀欲。
 4. 不要相信哪个公司不作恶、重视隐私。（感觉和2有冲突啊 XD）
-5. 尽量少用部分浏览器“记住密码”的功能，chrome 是明文保存，而firefox，可以参考该新闻 https://www.bleepingcomputer.com/news/security/mozilla-firefox-bug-let-third-parties-access-saved-passwords/
+5. 尽量少用部分浏览器“记住密码”的功能，chrome 是明文保存，而 firefox，可以参考该新闻 https://www.bleepingcomputer.com/news/security/mozilla-firefox-bug-let-third-parties-access-saved-passwords/
 6. 不要以为开虚拟机、挂 vpn 就抓不到你,webRTC 泄露 IP，浏览器指纹，通过 DNS 判断(参考网飞)，系统时间，浏览器 0day，等等等等。
 7. 所以不要干坏事、不要干坏事、不要干坏事
 
 ---
 
 ## 大纲
-* [查隐秘性](#查隐秘性)
+* [隐秘性查询](#隐秘性查询)
     * [隐私查询](#隐私查询)
     * [浏览器指纹](#浏览器指纹)
     * [密码查询](#密码查询)
@@ -84,10 +87,13 @@
         * [专利-商标](#专利-商标)
         * [报刊](#报刊)
         * [图表](#图表)
+    * [天气-环境](#天气-环境)
+    * [地图](#地图)
+        * [网络攻击地图](#网络攻击地图)
 
 ---
 
-# 查隐秘性
+# 隐秘性查询
 ## 隐私查询
 - [查你这个IP下载过哪些磁力链接🔗 太缺德了😂 Torrent downloads and distributions for IP](http://iknowwhatyoudownload.com/)
 - [你注册过哪些网站？一搜便知](https://reg007.com/)
@@ -111,6 +117,8 @@
     - [Cookieless cookies](http://lucb1e.com/rp/cookielesscookies/)
 - **webRTC**
     - [ 你的VPN泄漏IP了吗：仍有20%的VPN服务商未解决WebRTC漏洞问题 ](https://www.freebuf.com/articles/web/166754.html)
+- **leak HTTP**
+    - [cure53/HTTPLeaks](https://github.com/cure53/HTTPLeaks) - 对于网页泄漏 HTTP 请求的方法总结
 
 ---
 
@@ -375,6 +383,7 @@ https://tempmail.altmails.com/
 - [ProtonMail](https://mail.protonmail.com/inbox)
 - [Openmailbox](https://www.openmailbox.org/)
 - [Get secure, reliable email hosting – FastMail](https://www.fastmail.com/)
+- [xyfir/ptorx](https://github.com/xyfir/ptorx)
 
 ---
 
@@ -621,6 +630,23 @@ https://tempmail.altmails.com/
 ---
 
 ## 各类搜索
+
+`下方所有搜索引擎不保证其安全性、隐私性,仅保证其功能性`
+
+### 常用搜索引擎
+- https://www.ask.com/
+- https://start.duckduckgo.com/
+- https://www.ecosia.org/
+- https://www.google.com/
+- https://www.qwant.com/
+- https://so.mezw.com/
+- https://searx.me/
+- https://www.startpage.com/
+- https://yandex.com/
+- http://search.chongbuluo.com/
+- http://www.subzin.com/
+- https://magi.com/
+
 ### 航班
 - [Flight Tracker | Flightradar24 | Track Planes In Real-Time](https://www.flightradar24.com/)
 - [FlightAware - 航班跟踪/航班状态/飞行跟踪](https://zh.flightaware.com/)
@@ -722,3 +748,57 @@ https://tempmail.altmails.com/
 
 ### 图表
 - [Grafiti | The Search Engine for Charts](https://beta.grafiti.io/)
+
+### 数据
+- [World Bank Open Data](https://data.worldbank.org.cn/)
+
+### BGP
+- [BGP Update Reports](http://bgp.potaroo.net/index-upd.html)
+- [Collectors – Routeviews](http://www.routeviews.org/routeviews/index.php/collectors/)
+- [Hurricane Electric BGP Toolkit](https://bgp.he.net/)
+
+### 电子硬件相关
+- [Search FCC ID Database](https://fccid.io/search.php)
+- [BIOS Master Password Generator for Laptops](https://bios-pw.org/#)
+- [无线电设备查询](http://www.srrc.org.cn/WP_Search.aspx)
+
+---
+
+## 天气-环境
+- [Antiweather](https://bennettfeely.com/antiweather/)
+- [亚洲空气污染：实时空气质量指数地图](https://aqicn.org/map/cn/)
+- [earth :: a global map of wind, weather, and ocean conditions](https://earth.nullschool.net/)
+- [Windy: Wind map & weather forecast](https://www.windy.com/)
+- [台风路径实时发布系统](http://typhoon.zjwater.gov.cn/default.aspx)
+- [Light pollution map](https://www.lightpollutionmap.info/)
+- [PurpleAir | Real Time Air Quality Monitoring](https://www2.purpleair.com/)
+
+---
+
+## 地图
+- [天地图](http://map.tianditu.gov.cn/)
+- [高德地图](https://www.amap.com/)
+- [百度地图](https://map.baidu.com/)
+- [Bing 地图](https://cn.bing.com/ditu/)
+- [Google Maps](https://www.google.cn/maps/)
+- [Google Earth](https://www.google.com/earth/)
+- [OpenStreetMap](https://www.openstreetmap.org/)
+- [MapBoard](https://board.mapdevcode.co/)
+- [HE 3D Network Map](https://he.net/3d-map/)
+- [日本夜遊地圖 Japan Night Life - uMap](https://umap.openstreetmap.fr/zh-tw/map/japan-night-life_245233#6/37.892/140.361)
+- [EarthExplorer](https://earthexplorer.usgs.gov/)
+- [Submarine Cable Map](https://www.submarinecablemap.com/)
+- [Mapped: The world's nuclear power plants | Carbon Brief](https://www.carbonbrief.org/mapped-the-worlds-nuclear-power-plants)
+- [发现中国 - 地图分享知识](https://www.ageeye.cn/)
+
+### 网络攻击地图
+
+`偷偷告诉你,这里面,好几个都是假的`
+
+- [Fortinet Threat Map](https://threatmap.fortiguard.com/)
+- [Live Cyber Attack Threat Map | Check Point Software](https://threatmap.checkpoint.com/ThreatPortal/livemap.html)
+- [FireEye Cyber Threat Map](https://www.fireeye.com/cyber-map/threat-map.html)
+- [BOTNET Connection Dashboard](https://botnet-cd.trendmicro.com/)
+- [实时互联网监控器 | Akamai CN](https://www.akamai.com/cn/zh/resources/visualizing-akamai/real-time-web-monitor.jsp?tab=traffic&theme=dark)
+- [MAP | Kaspersky Cyberthreat real-time map](https://cybermap.kaspersky.com/)
+- [Digital Attack Map](https://www.digitalattackmap.com/)
