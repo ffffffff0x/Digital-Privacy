@@ -560,6 +560,7 @@ https://tempmail.altmails.com/
 **相关的网站与资源**
 - [丁爸网](http://dingba.top/)
 - 微信公众号 情报小蜜蜂 WeChat ID little_bee007
+- [iYouPort OSINT专栏](https://www.iyouport.org/category/osint/)
 - [sinwindie/OSINT](https://github.com/sinwindie/OSINT) - 各种平台的 OSINT "一张图" 系列
 - [blaCCkHatHacEEkr/OSINT_TIPS](https://github.com/blaCCkHatHacEEkr/OSINT_TIPS) - OSINT 技巧合集
 - [The Privacy, Security, & OSINT Show](https://inteltechniques.com/podcast.html) - 讲述、介绍各类 OSINT 技能的博客
