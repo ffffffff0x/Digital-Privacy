@@ -181,6 +181,7 @@
 - [经纬度定位](http://www.gzhatu.com/dingwei.html)
 - [经纬度格式转换工具软件](http://www.gzhatu.com/du2dfm.html)
 - [经纬度在线查询](http://map.yanue.net/)
+- [免费的客户端反向地理编码](https://www.bigdatacloud.com/geocoding-apis/free-reverse-geocode-to-city-api)
 
 **基站定位**
 - [ GPSspg](http://www.gpsspg.com/bs.htm) - 基站定位查询
@@ -205,6 +206,7 @@
 - [ASNIP.net](https://asnip.net/) - ASN Query
 - [Plot IP](http://plotip.com/ip) - IP Addresses
 - [DB-IP](https://db-ip.com/) - IP Geolocation API and databases
+- [BigDataCloud](https://www.bigdatacloud.com/) - Essential IP Geolocation APIs 
 - [IPIP.NET](https://www.ipip.net/) - IP 地址库
 - [IP查询](http://www.123cha.com/)
 - [ip查询](http://www.hao7188.com/)
