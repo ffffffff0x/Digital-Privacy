@@ -362,7 +362,7 @@
 - [Fake Person/Name Generator | User Identity, Account and Profile Generator](https://fakepersongenerator.com/)
 
 **图片生成**
-- [伪造人像](thispersondoesnotexist)
+- [伪造人像](https://thispersondoesnotexist.com)
 - [Artbreeder](https://artbreeder.com/browse)
 - [Comixify](https://comixify.ii.pw.edu.pl/)
 - [This Waifu Does Not Exist - Gwern](https://www.thiswaifudoesnotexist.net/?ref=appinn)
