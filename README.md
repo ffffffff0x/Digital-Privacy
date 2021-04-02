@@ -137,6 +137,8 @@
 - [Detect Canvas Fingerprint](https://webbrowsertools.com/canvas-fingerprint/) - 这个页面使用不同的技术来识别是否安装了浏览器扩展来欺骗 canvas 指纹结果。
 - [What is my User Agent](https://webbrowsertools.com/useragent/) - 检测网站服务器和客户端代码在访问网站时看到的用户代理字符串。
 - [Sploit.io](https://sploit.io/) - 这个网页可以测试你在浏览网页的时候到底会暴露出哪些信息出去；从漏洞，到地理位置，到浏览器指纹，用没用代理等等。
+- [Supercookie](https://supercookie.me/) - 这个网站可以通过浏览器访问过的图标来识别用户指纹。
+
 - **相关文章**
     - [浏览器指纹](https://wzyboy.im/post/1130.html)
     - [2.5代指纹追踪技术—跨浏览器指纹识别](https://www.freebuf.com/articles/web/139984.html)
@@ -491,6 +493,9 @@ http://tool.chacuo.net/mailsend
 https://maildrop.cc/
 http://tool.chacuo.net/mailanonymous
 https://tempmail.altmails.com/
+https://www.snapmail.cc/
+https://www.linshi-email.com/
+
 ```
 
 ### 匿名邮箱
