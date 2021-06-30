@@ -486,7 +486,6 @@ https://10minutemail.com/
 https://10minutemail.net/
 https://www.guerrillamail.com/zh/inbox
 http://www.fakemailgenerator.com/#/dayrep.com/Firly1970/
-https://tutanota.com/
 https://temp-mail.org/en/
 https://www.guerrillamail.com/
 http://tool.chacuo.net/mailsend
@@ -503,6 +502,7 @@ https://www.linshi-email.com/
 - [ProtonMail](https://mail.protonmail.com/inbox)
 - [Get secure, reliable email hosting – FastMail](https://www.fastmail.com/)
 - [xyfir/ptorx](https://github.com/xyfir/ptorx)
+- [Tutanota](https://tutanota.com/)
 
 ---
 
