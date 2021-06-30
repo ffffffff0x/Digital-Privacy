@@ -17,7 +17,7 @@
 * **项目起因 :** 为了保护自己的隐私,慢慢的开始学习与收集各种手段方法、网站、工具,我把这种行为称作数字洁癖.这些手段方法藏着掖着也不能当传家宝,那干脆就分享出来造福大众.
 * **涉及内容 :** 个人敏感信息查询,保护措施,开源信息收集(OSINT)对抗
 * **事件集合 :** 还不清楚严重性？进来了解近年来的数据泄露、供应链污染事件:[Dork-Admin](https://github.com/ffffffff0x/Dork-Admin)
-* **项目地址 :** hhttps://github.com/ffffffff0x/Digital-Privacy
+* **项目地址 :** https://github.com/ffffffff0x/Digital-Privacy
 
 ---
 
