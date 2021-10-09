@@ -375,6 +375,7 @@
 - [Reflect.tech](https://reflect.tech/faceswap/hot)
 - [Gallery of AI Generated Faces | Generated.photos](https://generated.photos/faces)
 - [ピクセルミー | ドット絵ジェネレーター](https://pixel-me.tokyo/en)
+- [PaddleGAN 人像生成、编辑、融合、动作迁移](https://github.com/PaddlePaddle/PaddleGAN)
 
 ---
 
