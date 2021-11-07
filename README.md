@@ -867,6 +867,7 @@ https://www.linshi-email.com/
         - [Telegram Groups List](https://tgram.io/)
         - [Bots for Telegram](https://botsfortelegram.com/)
         - [Lyzem Search](https://lyzem.com/)
+        - [telegram directory](https://threej.in)
 
     - Tips
         - Telegram 账号的"数字 id"是注册时间越晚就越大吗？
