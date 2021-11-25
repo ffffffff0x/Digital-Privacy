@@ -118,8 +118,8 @@
     - [CheckUsernames](https://checkusernames.com/) - 测某账号是否在全球500多个社交媒体中是否有注册。
     - [WhatsMyName Web](https://whatsmyname.app/) - 搜索许多网站上存在的用户名。
     - [NameCheckup](https://namecheckup.com/) - 查找可用的用户名
-    - [Namechk](https://knowem.com/)
-    - [KnowEm Username Search](https://namechk.com/)
+    - [Namechk](https://namechk.com/)
+    - [KnowEm Username Search](https://knowem.com/)
     - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) - 在不同的社交网络上通过用户名搜寻账户
 
 - **从IP查询**
