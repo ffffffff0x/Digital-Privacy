@@ -107,8 +107,8 @@ English | [简体中文](README.zh-cn.md)
     - [CheckUsernames](https://checkusernames.com/)
     - [WhatsMyName Web](https://whatsmyname.app/)
     - [NameCheckup](https://namecheckup.com/)
-    - [Namechk](https://knowem.com/)
-    - [KnowEm Username Search](https://namechk.com/)
+    - [Namechk](https://namechk.com/)
+    - [KnowEm Username Search](https://knowem.com/)
     - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
 
 - **Search by ip**
