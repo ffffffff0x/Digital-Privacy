@@ -257,6 +257,7 @@ Browser fingerprinting happens when websites use special scripts to collect enou
 
 - **Browser**
     - [Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
+    - [LibreWolf Browser](https://librewolf-community.gitlab.io/)
 
 - **Chat**
     - [telegram](https://telegram.org/)
