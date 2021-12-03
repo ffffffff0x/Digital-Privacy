@@ -266,6 +266,7 @@
 
 - **浏览器**
     - [Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
+    - [LibreWolf Browser](https://librewolf-community.gitlab.io/)
 
 - **通讯**
     - [telegram](https://telegram.org/)
