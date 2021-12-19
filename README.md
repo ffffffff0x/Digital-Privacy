@@ -446,7 +446,7 @@ http://www.yopmail.com/zh/
 https://10minutemail.com/
 https://10minutemail.net/
 https://www.guerrillamail.com/zh/inbox
-http://www.fakemailgenerator.com/#/dayrep.com/Firly1970/
+http://www.fakemailgenerator.com/
 https://temp-mail.org/en/
 https://www.guerrillamail.com/
 http://tool.chacuo.net/mailsend
@@ -695,7 +695,7 @@ https://www.linshi-email.com/
 
     - 事件记录
         - [facebook正在你下载的照片中嵌入跟踪数据](https://twitter.com/oasace/status/1149181539000864769)
-        - [Facebook Embeds 'Hidden Codes' To Track Who Sees And Shares Your Photos](https://www.forbes.com/sites/zakdoffman/2019/07/14/facebook-is-embedding-hidden-codes-to-track-all-your-uploaded-photos-report/#736d099e1592)
+        - [Facebook Embeds 'Hidden Codes' To Track Who Sees And Shares Your Photos](https://www.forbes.com/sites/zakdoffman/2019/07/14/facebook-is-embedding-hidden-codes-to-track-all-your-uploaded-photos-report/)
         - [Messenger 发音频安全吗？FB 承认曾转录用户音频](http://hackernews.cc/archives/26923)
         - [彭博:Facebook雇人记录用户语音通话以改善AI技术](https://tech.sina.com.cn/i/2019-08-14/doc-ihytcitm8999002.shtml)
         > 知情人士透露称,Facebook 付费聘请几百名外部承包商,让他们转录音频片段,这些音频来自使用 Facebook 服务的用户.
@@ -1158,6 +1158,10 @@ https://www.linshi-email.com/
 - [Blogspot Blog Search](https://searchblogspot.com/)
 - [Prepare for Meetings - Selling Intel Search Engine](https://yougotblogs.com/)
 
+### Code_Search
+
+- [SymbolHound: Search Better. Code Better.](http://symbolhound.com/)
+
 ---
 
 ## File_Resources
@@ -1165,7 +1169,7 @@ https://www.linshi-email.com/
 ### PDF
 
 - [PDFSEARCH.IO - Document Search Engine](https://www.pdfsearch.io/)
-- [PDF search engine for free scientific publications - FreeFullPDF](https://freefullpdf.com/#gsc.tab=0)
+- [PDF search engine for free scientific publications - FreeFullPDF](https://freefullpdf.com/)
 - [Documents Free Download PDF](https://pdfsecret.com/)
 - [PDF Books for Download](https://pdfbook-s.com/)
 - [PDF Search Engine, free search, PDF download](https://printfu.org/)
@@ -1173,6 +1177,9 @@ https://www.linshi-email.com/
 - [PDF Search Engine - Free download PDF files](https://pdfsearches.com/)
 - [PDF Drive - Search and download PDF files for free.](https://www.pdfdrive.com/)
 - [Free PDF Search Engine](http://www.pdfgeni.com/)
+- [PDF Search Engine - Find free PDF books online](http://www.pdfsearchengine.info/)
+- [PDF search engine - pdfyes.com](http://pdfyes.com/)
+- [DocJax | Find Any Document on the Web](https://docjax.com/)
 
 ### music
 
