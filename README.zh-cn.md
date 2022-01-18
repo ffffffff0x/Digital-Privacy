@@ -1118,6 +1118,14 @@ https://www.linshi-email.com/
 - [Spyse](https://spyse.com/search/cert) - SSL证书搜索引擎
 - [searchcode](https://searchcode.com/) - 开源代码搜索引擎
 - [知风](https://zhifeng.io/monitor) - 互联网联网工控资产搜索引擎
+- [onyphe](https://www.onyphe.io/)
+- [GreyNoise](https://viz.greynoise.io/)
+- [Thingful](https://www.thingful.net/) - 仅针对物联网的搜索引擎
+- [LeakIX](https://leakix.net/) - 针对信息泄露的搜索引擎
+- [spyse](https://spyse.com/)
+- [quake](https://quake.360.cn/quake/#/index)
+- [netlas](https://app.netlas.io/)
+- [HUNTER](https://hunter.qianxin.com/)
 
 ### tor信息
 
@@ -1145,6 +1153,12 @@ https://www.linshi-email.com/
 - [远见搜索](https://yuanjian.cnki.net/) - 知网提供的搜索引擎
 - [Library Genesis](https://libgen.is/) - 創世紀圖書館是科學論文及書籍的搜尋引擎，可以免費提供被擋在付費牆後的內容。
 - [Wolfram|Alpha](https://www.wolframalpha.com/)
+- [e-Marefa - The Digital Arabic Database : Studies & Researches](https://search.emarefa.net/en)
+- [ERIC - Education Resources Information Center](https://eric.ed.gov/)
+- [Scinapse | Academic search engine for paper](https://www.scinapse.io/)
+- [SweetSearch - A Search Engine for Students](https://sweetsearch.com/)
+- [CORE – Aggregating the world’s open access research papers](https://core.ac.uk/)
+- [BASE (Bielefeld Academic Search Engine): Basic Search](https://www.base-search.net/)
 
 ### 专利-商标
 
