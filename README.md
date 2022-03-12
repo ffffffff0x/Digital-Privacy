@@ -1035,6 +1035,14 @@ https://www.linshi-email.com/
 - [Spyse](https://spyse.com/search/cert)
 - [searchcode](https://searchcode.com/)
 - [知风](https://zhifeng.io/monitor)
+- [onyphe](https://www.onyphe.io/)
+- [GreyNoise](https://viz.greynoise.io/)
+- [Thingful](https://www.thingful.net/)
+- [LeakIX](https://leakix.net/)
+- [spyse](https://spyse.com/)
+- [quake](https://quake.360.cn/quake/#/index)
+- [netlas](https://app.netlas.io/)
+- [HUNTER](https://hunter.qianxin.com/)
 
 ### tor_Info
 
@@ -1062,6 +1070,12 @@ https://www.linshi-email.com/
 - [远见搜索](https://yuanjian.cnki.net/)
 - [Library Genesis](https://libgen.is/)
 - [Wolfram|Alpha](https://www.wolframalpha.com/)
+- [e-Marefa - The Digital Arabic Database : Studies & Researches](https://search.emarefa.net/en)
+- [ERIC - Education Resources Information Center](https://eric.ed.gov/)
+- [Scinapse | Academic search engine for paper](https://www.scinapse.io/)
+- [SweetSearch - A Search Engine for Students](https://sweetsearch.com/)
+- [CORE – Aggregating the world’s open access research papers](https://core.ac.uk/)
+- [BASE (Bielefeld Academic Search Engine): Basic Search](https://www.base-search.net/)
 
 ### Patent_Trademark
 
