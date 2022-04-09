@@ -261,6 +261,8 @@ Browser fingerprinting happens when websites use special scripts to collect enou
 
 - **Chat**
     - [telegram](https://telegram.org/)
+    - [Session](https://getsession.org/)
+    - [Element](https://element.io/)
 
 - **Network Audit**
     - [W10Privacy](https://www.winprivacy.de/english-home/)
