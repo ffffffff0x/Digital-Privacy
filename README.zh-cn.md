@@ -438,12 +438,8 @@ http://freereceivesmsonline.com/
 
 **国内免费接码平台**
 ```
-https://www.bfkdim.com/
-https://www.yinsiduanxin.com/
-https://www.materialtools.com/
 http://www.114sim.com/
 http://zg.114sim.com/
-http://z-sms.com/
 https://www.zusms.com/
 https://yunjiema.net/
 http://jiema.tech/
@@ -762,6 +758,12 @@ https://www.linshi-email.com/
         <p align="center">
             <img src=".//assets/img/dd.png">
         </p>
+
+- **支付宝**
+
+    - 查询快递
+
+        搜索 [我的快递] ,能看到自己最近的快递记录
 
 ---
 
